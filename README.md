@@ -1,1 +1,1 @@
-# ams.github.io
+# americanmontessorischools.github.io
