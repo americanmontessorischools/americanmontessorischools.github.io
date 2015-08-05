@@ -63,3 +63,8 @@ ul.posts li {
   line-height: 2.5em;
   font-weight: normal;
 }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
