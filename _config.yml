@@ -1,2 +1,3 @@
 name: American Montessori Schools
 markdown: kramdown
+markdown: redcarpet
