@@ -1,5 +1,5 @@
 #wrapper {
-  width: 70em;
+  width: 80em;
   margin: 2em auto 0;
   padding: 0;
   background: #fff;
@@ -10,7 +10,7 @@
 
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
