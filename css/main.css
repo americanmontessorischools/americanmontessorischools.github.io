@@ -181,13 +181,13 @@ pre {
   @media screen and (max-width: 768px) {
   	#wrapper,#header,#footer,#navigation {width: 768px; margin: 0px;}
   	#logo { text-align:center; }
-  	#navigation { text-align: center; background-image: none; border-top-color: #bfbfbf; border-top-style: double; border-top-width: 4px; padding-top: 20px;}
-  	#navigation ul li a { background-color: #dedede; line-height: 60px; font-size: 40px; }
+  	#navigation { text-align: center; background-image: none; border-top-color: #FF0000; border-top-style: double; border-top-width: 4px; padding-top: 20px;}
+  	#navigation ul li a { background-color: #FF0000; line-height: 60px; font-size: 40px; }
   	#content,#sidebar { margin-top: 20px; padding-right: 10px; padding-left: 10px; width: 728px;}
   	.contentMain { margin-right: 30px; margin-top: 0px; width: 150px; height: 394px; }
   	#sidebar { border-right: none; border-top: 2px solid #e8e8e8; padding-top: 20px; margin-bottom: 20px; }
   	.sideBlock { width: 60%; float: left; }
-  	.overHyped { margin-top: 0px; margin-left: 50px; }
+  	.extnLinks { margin-top: 0px; margin-left: 50px; }
   }
 
   #logo {
@@ -201,26 +201,60 @@ pre {
 
   #logo span { color: #dfdada; }
 
+  #navigation {
+  	padding-bottom: 25px;
+  	margin-top: 26px;
+  	margin-left: -1.0416667%; /* 10 ÷ 960 */
+  	padding-right: 1.0416667%; /* 10 ÷ 960 */
+  	padding-left: 1.0416667%; /* 10 ÷ 960 */
+  	width: 97.9166667%; /* 940 ÷ 960 */
+  	background-repeat: repeat-x;
+  	border-bottom-color: #FF0000;
+  	border-bottom-style: double; border-bottom-width: 4px;
+  }
+
+  #navigation ul li {
+  	display: inline-block;
+  	margin-right: 2.6595745%; /* 25 ÷ 940 */
+  }
+
+  #navigation ul li a {
+  	height: 42px;
+  	line-height: 42px;
+  	text-decoration: none;
+  	text-transform: none;
+  	font-family: Arial, "Lucida Grande", Verdana, sans-serif;
+  	font-size: 1.6875em; /*27 ÷ 16 */
+  	color: black;
+  }
+
   ul.sidebar
   {
-      list-style-type: none;
+  	list-style-type: none;
   }
 
   ul.sidebar li
   {
-      text-indent: -1.4em;
+  	text-indent: -1.4em;
+  	margin: 0.5em 2em;
   }
 
   ul.sidebar li:before
   {
-      font-family: bullets;
-      content: "\e800";
-      float: left;
-      width: 1.4em;
+  	font-family: bullets;
+  	content: "\e800";
+  	float: left;
+  	width: 1.4em;
+  	color: #8c8;
   }
 
-ul.icon li.info:before { content: "\e800"; }
-ul.icon li.star:before { content: "\e803"; }
-ul.icon li.help:before { content: "\e801"; }
-ul.icon li.bulb:before { content: "\e804"; }
-ul.icon li.hand:before { content: "\e805"; }
+  ul.sidebar li.info:before { content: "\e800"; }
+  ul.sidebar li.heart:before { content: "\e802"; }
+  ul.sidebar li.heart-empty:before { content: "\e808"; }
+  ul.sidebar li.star:before { content: "\e803"; }
+  ul.sidebar li.star-empty:before { content: "\e809"; }
+  ul.sidebar li.help:before { content: "\e801"; }
+  ul.sidebar li.bulb:before { content: "\e804"; }
+  ul.sidebar li.arrow:before { content: "\e806"; }
+  ul.sidebar li.hand:before { content: "\e805"; }
+  ul.sidebar li.html5:before { content: "\e807"; }
