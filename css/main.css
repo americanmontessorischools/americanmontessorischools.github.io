@@ -186,7 +186,7 @@ pre {
   	#content,#sidebar { margin-top: 20px; padding-right: 10px; padding-left: 10px; width: 728px;}
   	.contentMain { margin-right: 30px; margin-top: 0px; width: 150px; height: 394px; }
   	#sidebar { border-right: none; border-top: 2px solid #e8e8e8; padding-top: 20px; margin-bottom: 20px; }
-  	.sideBlock { width: 46%; float: left; }
+  	.sideBlock { width: 60%; float: left; }
   	.overHyped { margin-top: 0px; margin-left: 50px; }
   }
 
@@ -199,4 +199,4 @@ pre {
   	font-size: 3em; /* 48 ÷ 16 = 3*/
   }
 
-  #logo span { color: #dfdada; }  
+  #logo span { color: #dfdada; }
