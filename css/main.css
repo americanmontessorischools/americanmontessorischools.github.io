@@ -131,7 +131,7 @@ pre {
   	width: 22.7083333%; /* 218 ÷ 960 */
   }
 
-  #sidebar h4 { margin-bottom: 20px; font-family: "Lucida Grande", Verdana, Arial, sans-serif; font-size: 20px; text-transform: uppercase; }
+  #sidebar h4 { margin-bottom: 20px; font-family: "Lucida Grande", Verdana, Arial, sans-serif; font-size: 20px; text-transform: none; }
   .extnLinks { margin-top: 27px; }
   .sideBlock {
   	width: 100%; /* 220 */
@@ -151,7 +151,6 @@ pre {
   	padding-top: 33px;
   	background-position: 0 bottom;
   	background-repeat: repeat-x;
-  	background-image: url(../img/buntingSlice3.png);
   	margin-right: 1.0416667%; /* 10 ÷ 960 */
   	margin-left: 1.0416667%; /* 10 ÷ 960 */
   	clear: both;
@@ -164,7 +163,7 @@ pre {
   	text-align: center;
   	font-size: 13px;
   	font-family: Helvetica, Verdana, Arial, sans-serif;
-  	text-transform: uppercase;
+  	text-transform: none;
   	color: #757474;
   }
 
