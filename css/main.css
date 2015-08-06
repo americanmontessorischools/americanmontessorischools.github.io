@@ -29,14 +29,6 @@ p {
     color: #333;
 }
 
-#content {
-	float: right;
-}
-
-#sidebar {
-	float: left;
-}
-
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -80,3 +72,79 @@ IMG.displayed {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* self-clear floats */
+
+.group:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+/* wrap url's */
+
+pre {
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */
+	}
+
+  #content {
+  	margin-top: 58px;
+  	margin-right: 1.0416667%; /* 10 ÷ 960 */
+  	float: right;
+  	width: 72.7083333%; /* 698 ÷ 960 */
+  }
+
+  #content h1 {
+  	font-family: Arial, Helvetica, Verdana, sans-serif;
+  	text-transform: uppercase;
+  	font-size: 4.3125em; } /* 69 ÷ 16 */
+
+  #content h1 span {
+  	display: block;
+  	line-height: 1.052631579em; /* 40 ÷ 38 */
+  	color: #757474;
+  	font-size: .550724638em; /* 38 ÷ 69 */
+  }
+
+  #content p { line-height: 40px; color: #757474; font-size: 24px; }
+
+  .contentMain {
+  	float: left;
+  	margin-top: -28px;
+  	width: 28.9398281%; /* 698 ÷ 202 */
+  	max-width: 202px;
+  }
+
+  #sidebar {
+  	border-right-color: #e8e8e8;
+  	border-right-style: solid;
+  	border-right-width: 2px;
+  	margin-top: 58px;
+  	padding-right: 1.0416667%; /* 10 ÷ 960 */
+  	margin-right: 1.0416667%; /* 10 ÷ 960 */
+  	margin-left: 1.0416667%; /* 10 ÷ 960 */
+  	float: left;
+  	width: 22.7083333%; /* 218 ÷ 960 */
+  }
+
+  #sidebar h4 { margin-bottom: 20px; font-family: "Lucida Grande", Verdana, Arial, sans-serif; font-size: 20px; text-transform: uppercase; }
+  .extnLinks { margin-top: 27px; }
+  .sideBlock {
+  	width: 100%; /* 220 */
+  }
+
+  #wrapper {
+  	margin-right: auto;
+  	margin-left: auto;
+  	width: 96%; /* Holding outermost DIV */
+  	max-width: 1414px;
+  }
