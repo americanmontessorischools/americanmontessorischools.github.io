@@ -228,18 +228,26 @@ pre {
   	color: black;
   }
 
-  ul.sidebar
+  @font-face {
+    font-family: 'bullets';
+    src: url("icons/bullets.eot");
+    src: url("icons/bullets.eot#iefix") format('embedded-opentype'), url("icons/bullets.woff") format('woff'), url("icons/bullets.ttf") format('truetype'), url("icons/bullets.svg#bullets") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  ul.icon
   {
   	list-style-type: none;
   }
 
-  ul.sidebar li
+  ul.icon li
   {
   	text-indent: -1.4em;
   	margin: 0.5em 2em;
   }
 
-  ul.sidebar li:before
+  ul.icon li:before
   {
   	font-family: bullets;
   	content: "\e800";
@@ -248,13 +256,13 @@ pre {
   	color: #8c8;
   }
 
-  ul.sidebar li.info:before { content: "\e800"; }
-  ul.sidebar li.heart:before { content: "\e802"; }
-  ul.sidebar li.heart-empty:before { content: "\e808"; }
-  ul.sidebar li.star:before { content: "\e803"; }
-  ul.sidebar li.star-empty:before { content: "\e809"; }
-  ul.sidebar li.help:before { content: "\e801"; }
-  ul.sidebar li.bulb:before { content: "\e804"; }
-  ul.sidebar li.arrow:before { content: "\e806"; }
-  ul.sidebar li.hand:before { content: "\e805"; }
-  ul.sidebar li.html5:before { content: "\e807"; }
+  ul.icon li.info:before { content: "\e800"; }
+  ul.icon li.heart:before { content: "\e802"; }
+  ul.icon li.heart-empty:before { content: "\e808"; }
+  ul.icon li.star:before { content: "\e803"; }
+  ul.icon li.star-empty:before { content: "\e809"; }
+  ul.icon li.help:before { content: "\e801"; }
+  ul.icon li.bulb:before { content: "\e804"; }
+  ul.icon li.arrow:before { content: "\e806"; }
+  ul.icon li.hand:before { content: "\e805"; }
+  ul.icon li.html5:before { content: "\e807"; }
