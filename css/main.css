@@ -110,7 +110,7 @@ pre {
   	font-size: .550724638em; /* 38 ÷ 69 */
   }
 
-  #content p { line-height: 40px; color: #757474; font-size: 24px; }
+  #content p { line-height: 40px; font-size: 24px; }
 
   .contentMain {
   	float: left;
