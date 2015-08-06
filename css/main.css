@@ -29,11 +29,6 @@ p {
     color: #333;
 }
 
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
@@ -147,4 +142,28 @@ pre {
   	margin-left: auto;
   	width: 96%; /* Holding outermost DIV */
   	max-width: 1414px;
+  }
+
+  #footer {
+  	padding-bottom: 43px;
+  	float: left;
+  	margin-top: 20px;
+  	padding-top: 33px;
+  	background-position: 0 bottom;
+  	background-repeat: repeat-x;
+  	background-image: url(../img/buntingSlice3.png);
+  	margin-right: 1.0416667%; /* 10 ÷ 960 */
+  	margin-left: 1.0416667%; /* 10 ÷ 960 */
+  	clear: both;
+  	width: 97.9166667%; /* 940 ÷ 960 */
+  	border-top-color: #bfbfbf; border-top-style: double; border-top-width: 4px;
+  }
+
+  #footer p {
+  	margin-bottom: 38px;
+  	text-align: center;
+  	font-size: 13px;
+  	font-family: Helvetica, Verdana, Arial, sans-serif;
+  	text-transform: uppercase;
+  	color: #757474;
   }
