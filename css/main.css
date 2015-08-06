@@ -235,6 +235,18 @@ pre {
     font-style: normal;
   }
 
+  ul.txt {
+      list-style: none;
+      padding:0;
+      margin:0;
+  }
+
+  ul.txt li {
+      padding-left: 1em;
+      text-indent: -.7em;
+      color: red;
+  }
+
   ul.icon
   {
   	list-style-type: none;
