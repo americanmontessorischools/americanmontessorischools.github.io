@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://americanmontessorischools.github.io/404.html</loc>
+<loc>http://www.americanmontessorischools.com/</loc>
+<lastmod>2015-08-07 00:00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-<loc>http://americanmontessorischools.github.io/about/</loc>
+<loc>http://www.americanmontessorischools.com/about</loc>
+<lastmod>2015-08-07 00:00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-<loc>http://americanmontessorischools.github.io/admissions/</loc>
+<loc>http://www.americanmontessorischools.com/admissions</loc>
+<lastmod>2015-08-07 00:00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-<loc>http://americanmontessorischools.github.io/</loc>
+<loc>http://www.americanmontessorischools.com/contact</loc>
+<lastmod>2015-08-07 00:00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-<loc>http://americanmontessorischools.github.io/academics/</loc>
-</url>
-<url>
-<loc>http://americanmontessorischools.github.io/location/</loc>
-</url>
-<url>
-<loc>http://americanmontessorischools.github.io/contact/</loc>
+<loc>http://www.americanmontessorischools.com/location</loc>
+<lastmod>2015-08-07 00:00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 </urlset>
+
+
