@@ -60,6 +60,11 @@ ul.posts li {
   font-weight: normal;
 }
 
+#header h1 {
+  background: #648880;
+  background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}
+
 IMG.displayed {
     display: block;
     max-width: 100%;
