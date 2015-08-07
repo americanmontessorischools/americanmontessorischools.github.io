@@ -24,6 +24,11 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+h1.method2 {
+	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+	-webkit-mask-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
