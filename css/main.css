@@ -62,9 +62,10 @@ ul.posts li {
 
 h1#.hdr_logo {
   font-family:Helvetica;
-  font-size:300%;
-  background: #648880;
-  background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+  font-size: 72px;
+  background: -webkit-linear-gradient(#f6f1d3, #648880 55%, #293f50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 IMG.displayed {
