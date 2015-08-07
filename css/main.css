@@ -60,7 +60,7 @@ ul.posts li {
   font-weight: normal;
 }
 
-#banner {
+.hdr_logo {
   background: #648880;
   background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
 }
