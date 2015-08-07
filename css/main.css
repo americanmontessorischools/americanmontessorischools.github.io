@@ -31,16 +31,16 @@ h1 {
 	color: #000;
 }
 
-h1.method1 {
+.method1 {
 	background: -webkit-linear-gradient(top, #878787, #000);
 	background: linear-gradient(top, #878787, #000);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-h1.method2 {
+h1#.hdr_logo {
 	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
-  
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -76,14 +76,6 @@ ul.posts li {
   padding: 0 0.5em;
   line-height: 2.5em;
   font-weight: normal;
-}
-
-h1#.hdr_logo {
-  font-family:Helvetica;
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 IMG.displayed {
