@@ -1,5 +1,6 @@
 body {
-    background-color: #b29966;
+    #background-color: #b29966;
+    background-image:url('images/AMS_body_background.png');
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
