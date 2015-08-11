@@ -138,7 +138,11 @@ IMG.displayed {
 	padding: 1em;
 	}
 
-#footer_text h3 {
+#footer_text h2 {
+	color: #FFFFFF;
+}
+
+#footer_text p {
 	color: #FFFFFF;
 }
 
