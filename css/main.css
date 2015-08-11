@@ -43,7 +43,7 @@ body {
 
 #top_nav a:link {
 	text-decoration:none;
-	#background-color:#FF0000;
+	background-color:#FF0000;
 	color: #white;
 	padding: 10px 20px;
 	display: inline-block;
@@ -58,7 +58,7 @@ body {
 }
 
 #top_nav a:active {
-	background-color: #FF0000;
+	background-color: #green;
 }
 
 #top_nav a:hover {
