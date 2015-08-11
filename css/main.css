@@ -3,6 +3,12 @@ body {
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
+#logo {
+	padding-top: 3em;
+	padding-left: 2em;
+	float:left;
+}
+
 #top_nav {
 	background-color: #3D59AB;
 	margin: 0 auto;
