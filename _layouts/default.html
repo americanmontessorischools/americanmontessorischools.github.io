@@ -4,6 +4,15 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<script  type="text/javascript">
+				$(window).load(function(){
+ 					$('.container').find('img').each(function(){
+  				var imgClass = (this.width/this.height > 1) ? 'wide' : 'tall';
+  				$(this).addClass(imgClass);
+ 					})
+				})
+			</script>
+
 		</head>
 		<body>
 			<div id="container">
@@ -31,6 +40,7 @@
 								<p><small>&copy; <script>document.write(new Date().getFullYear());</script> American Montessori Schools. All rights reserved.</small></p>
 						</div> <!-- /.footer_text -->
 			</footer>
+
 		</div><!-- /.container -->
 		</body>
 	</html>
