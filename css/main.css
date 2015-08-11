@@ -43,10 +43,14 @@ body {
 
 #top_nav a:link {
 	text-decoration:none;
-	background-color:#FF0000;
+	#background-color:#FF0000;
 	color: #white;
-	padding: 10px 20px;
+	#padding: 10px 20px;
 	display: inline-block;
+  font-size: 1.3em;
+  padding: 0 0.5em;
+  line-height: 2.5em;
+  font-weight: normal;
 }
 
 #top_nav a:visited {
