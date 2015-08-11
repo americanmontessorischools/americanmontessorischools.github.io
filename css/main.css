@@ -132,3 +132,16 @@ IMG.displayed {
 	color: white;
 	line-height: 100%;
 }
+
+#footer_text {
+	margin-left: 15%;
+	padding: 1em;
+	}
+
+#footer_text h3 {
+	color: #FFFFFF;
+}
+
+#footer_text a {
+	color: #FFFFFF;
+}
