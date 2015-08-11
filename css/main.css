@@ -106,7 +106,7 @@ IMG.displayed {
 }​
 
 #left_sidebar {
-	width: 25%;
+	width: 20%;
 	float:left;
 	padding-left: 1em;
 	padding-top: 1em;
@@ -126,15 +126,9 @@ IMG.displayed {
 	padding-left:1em;
 }
 
-#footer_text{
-	margin-left: 15%;
-	padding: 1em;
-}
-
-#footer_text h2{
-	color: #FFFFFF;
-}
-
-#footer_text a{
-	color: #FFFFFF;
+#footer {
+	clear:both;
+	background-color: #00004F;
+	color: white;
+	line-height: 100%;
 }
