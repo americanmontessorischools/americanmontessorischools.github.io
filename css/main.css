@@ -18,22 +18,22 @@ body {
 
 #top_nav a:link {
 	text-decoration:none;
-	background-color:#00004F;
-	color: #FFFFFF;
+	background-color:#FF0000;
+	color: #white;
 	padding: 10px 20px;
 	display: inline-block;
 }
 
 #top_nav a:visited {
 	text-decoration:none;
-	color: #FFFFFF;
-	background-color:#00004F;
+	color: #white;
+	background-color:#FF0000;
 	padding: 10px 20px;
 	display: inline-block;
 }
 
 #top_nav a:active {
-	background-color: #00004F;
+	background-color: #FF0000;
 }
 
 #top_nav a:hover {
