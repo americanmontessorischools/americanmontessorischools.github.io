@@ -52,17 +52,17 @@ body {
 #top_nav a:visited {
 	text-decoration:none;
 	color: #white;
-	#background-color:#FF0000;
+	background-color:#FF0000;
 	padding: 10px 20px;
 	display: inline-block;
 }
 
 #top_nav a:active {
-	background-color: #green;
+	background-color: #white;
 }
 
 #top_nav a:hover {
-	background-color:#white;
+	background-color:#00002c;
 }
 
 h1 {
