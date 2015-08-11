@@ -96,6 +96,9 @@ IMG.displayed {
 	margin-right:auto;
 	max-width: 1082px;
   background-image:url('/images/AMS_body_background.png');
+  border-left-color: 3D59AB;
+  border-right-color: 3D59AB;
+  border-width: thin;
 }
 
 #left_sidebar {
