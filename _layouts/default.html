@@ -4,6 +4,14 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+			$(window).load(function(){
+			 $('.container').find('img').each(function(){
+			  var imgClass = (this.width/this.height > 1) ? 'wide' : 'tall';
+			  $(this).addClass(imgClass);
+			 })
+			})
+
 		</head>
 		<body>
 			<div id="container">
