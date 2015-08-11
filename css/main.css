@@ -108,6 +108,7 @@ IMG.displayed {
 #left_sidebar {
 	width: 30%;
 	float:left;
+	padding-left: 1em;
 	padding-top: 1em;
 }
 
@@ -122,6 +123,7 @@ IMG.displayed {
 	width: 5%;
 	text-align:center;
 	padding-top:1em;
+	padding-left:1em;
 }
 
 #footer {
