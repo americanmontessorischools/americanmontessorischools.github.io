@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
 #top_nav {
@@ -14,6 +15,8 @@ body {
 	margin:0;
 	padding: 0;
 	vertical-align: top;
+  font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+  font-weight: bold;
 	}
 
 #top_nav li {
@@ -96,7 +99,7 @@ IMG.displayed {
 }
 
 #left_sidebar {
-	width: 30%;
+	width: 25%;
 	float:left;
 	padding-left: 1em;
 	padding-top: 1em;
@@ -110,7 +113,7 @@ IMG.displayed {
 
 #right_sidebar {
 	float: left;
-	width: 5%;
+	width: 15%;
 	text-align:center;
 	padding-top:1em;
 	padding-left:1em;
