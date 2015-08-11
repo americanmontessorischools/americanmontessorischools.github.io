@@ -3,40 +3,29 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-			<meta name="viewport"  content="width=device-width,initial-scale=1" />
-			<script type="text/javascript">document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			{% include analytics.html %}
 		</head>
 		<body>
-		<div id="wrapper">
-		<header role="banner">
-			<h1><img class="displayed" src="/images/AMS_logo1.png" alt="American Montessori Schools"></h1>
-		<nav role="navigation">
-			<div id='menu'>
+			<div class="container">
+			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/admissions">Admissions</a></li>
-							<li><a href="/location">Location</a></li>
+	        		<li><a href="/Forms">Forms</a></li>
 	        		<li><a href="/contact">Contact Us</a></li>
 	    		</ul>
-			</div>
-		</nav>
-	</header>
-  <section>
-			<main role="main">
+			</nav>
 
 			{{ content }}
 
-		  </main>
-  </section>
+			</div><!-- /.container -->
 			<footer>
 				<div id="footer">
-					<p><small>&copy; <script>document.write(new Date().getFullYear());</script> American Montessori Schools. All rights reserved.</small></p>
-				</div>
-			</footer>
-	  </div>
+						<div id="footer_text">
+							  <h2>American Montessori Schools</h3>
+							  <p>67 US-206, Hillsborough Township, NJ 08844 | Phone: 908.977.6640 | <a href="mailto:info@americanmontessorischools.com">info@americanmontessorischools.com</a></p>
+								<p><small>&copy; <script>document.write(new Date().getFullYear());</script> American Montessori Schools. All rights reserved.</small></p>
+						</div> <!-- /.footer_text -->
+			</footer><!-- /.footer_text -->
 		</body>
 	</html>
