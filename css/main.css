@@ -25,22 +25,25 @@ body {
   font-weight: normal;
 }
 
+#top_nav {
+  background: #FF0000;
+}
+
 #top_nav ul {
 	list-style:none;
 	margin:0;
-	padding: 0;
+  text-align: center;
 	vertical-align: top;
 }
 
 #top_nav li {
 	margin:0;
-	padding:0;
 	display:inline;
 }
 
 #top_nav a:link {
 	text-decoration:none;
-	background-color:#FF0000;
+	#background-color:#FF0000;
 	color: #white;
 	padding: 10px 20px;
 	display: inline-block;
@@ -49,7 +52,7 @@ body {
 #top_nav a:visited {
 	text-decoration:none;
 	color: #white;
-	background-color:#FF0000;
+	#background-color:#FF0000;
 	padding: 10px 20px;
 	display: inline-block;
 }
