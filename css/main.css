@@ -148,6 +148,11 @@ img#logo {
   list-style-image: url('/images/AMS_list_tick_mark.png');
 }
 
+#left_sidebar li {
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 #content_section {
 	width: 60%;
 	float:left;
