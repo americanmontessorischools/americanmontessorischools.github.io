@@ -1,5 +1,11 @@
-HEADER#Banner{
-  background-image: image('/images/AMS_body_background_blue_long.png');
+#header {
+	position: relative;
+	height: 122px;
+	background: url('/images/AMS_body_background_blue_long.png') repeat-x top left;
+	z-index: 10;
+	width: 100%;
+	margin-top: 32px;
+	padding-top: 20px;
 }
 
 body {
