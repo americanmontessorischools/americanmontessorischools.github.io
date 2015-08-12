@@ -147,8 +147,8 @@ img.logo {
 #content_section {
 	width: 70%;
 	float:left;
-  /*padding-left: 10em;
-	padding-top: 1em;*/
+  padding-left: 5em;
+	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
