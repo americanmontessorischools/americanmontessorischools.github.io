@@ -4,7 +4,6 @@ body {
 }
 
 #main_banner {
-  float: inherit;
 	position: relative;
 	background-image:url('/images/AMS_body_background_blue.png') repeat-x top left;
   height: 122px;
@@ -97,7 +96,7 @@ img.logo {
 	position: absolute;
 	left: 10px;
 	z-index: 40;
-	top: -16px;
+	top: -10px;
 }
 
 #main_section {
