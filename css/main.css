@@ -100,6 +100,7 @@ img.shrink {
 
 img.logo {
 	/*position: absolute;*/
+  display: block;
 	right: 10px;
 	z-index: 40;
 	top: -30px;
