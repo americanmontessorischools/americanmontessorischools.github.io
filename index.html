@@ -55,17 +55,16 @@ title: American Montessori Schools Hillsborough NJ
 					<script>
 					  var canvas = document.getElementById("aboutUs");
 					  var context = canvas.getContext("2d");
-
-							      context.beginPath();
-							      context.rect(2, 2, 165, 200);
-										context.font-size = 1em;
-										context.font-family = 'Helvetica', 'Arial', 'Sans-Serif';
-							      context.fillStyle = 'blue';
-							      context.fill();
-										context.fillText("Learn About AMS", 2, 2);
-							      context.lineWidth = 7;
-							      context.strokeStyle = 'black';
-							      context.stroke();
+						context.font = "18pt Arial";
+						context.strokeStyle = "#000";
+						context.lineWidth = 0.1;
+						for (var i=0; i<8; i++) {
+						   context.fillStyle = "blue";
+						   context.fillRect(30, 0 + (i * 50), 150, 150);
+						   context.strokeRect(30, 0 + (i * 50), 150, 150);
+						   context.fillStyle = "#fff";
+						   context.fillText("Learn About AMS", 0, 0 + (i * 50));
+						}
 					</script>
 
 	 </div><!--/.right_sidebar -->
