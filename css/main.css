@@ -96,7 +96,7 @@ img.logo {
 	position: absolute;
 	left: 10px;
 	z-index: 40;
-	/*top: -10px;*/
+	top: -30px;
 }
 
 #main_section {
