@@ -105,6 +105,7 @@ img.logo {
 	top: -30px;
   max-height: 60%;
   max-width: 60%;
+  background-image: image('/images/AMS_body_background_blue_long.png');
   /*float:left;
   max-width: 100%;
   max-height: 50%;
