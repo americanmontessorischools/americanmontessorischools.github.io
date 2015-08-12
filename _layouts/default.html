@@ -7,11 +7,17 @@
 		</head>
 		<body>
 	    <script>
-				var c = document.getElementById("aboutUsCanvas");
-				var ctx = c.getContext("2d");
-				ctx.font-size = 1em;
-				ctx.font-family = 'Helvetica', 'Arial', 'Sans-Serif';
-				ctx.strokeText("Hello World",10,50);
+			var drawing = document.getElementById("drawing");
+      var con = drawing.getContext("2d");
+
+      //clear background
+      con.fillStyle = "white";
+      con.fillRect(0,0, 200, 200);
+      // draw font in red
+      con.fillStyle = "red";
+      con.font = "20pt sans-serif";
+      con.fillText("Learn About AMS", 5, 100);
+
 	    </script>
 			<div id="container">
 				<header role="banner">
