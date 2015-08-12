@@ -13,7 +13,7 @@ body {
 	list-style:none;
 	margin:0;
 	padding: 0;
-	/*vertical-align: top;*/
+	vertical-align: top;
   font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
   font-weight: bold;
 	}
