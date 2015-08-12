@@ -148,6 +148,7 @@ img.logo {
 	width: 60%;
 	float:left;
   padding-left: 1em;
+  text-align: center;
 	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
