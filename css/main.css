@@ -133,7 +133,7 @@ img.logo {
 #content_section {
 	width: 60%;
 	float:left;
-	padding-top: 2em;
+	padding-top: 1em;
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -156,7 +156,7 @@ img.logo {
 	clear:both;
 	background-color: #3D59AB;
 	color: white;
-	line-height: 2em;
+	line-height: 15%;
 }
 
 #footer_text {
