@@ -3,6 +3,10 @@ body {
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
+header {
+  background-color: #3D59AB;
+}
+
 #main_banner {
 	position: relative;
 	background-image:url('/images/AMS_body_background_blue.png') repeat-x top left;
