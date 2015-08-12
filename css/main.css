@@ -6,7 +6,8 @@ body {
 #header {
 	position: relative;
 	height: 122px;
-	background: url('/images/AMS_body_background_blue.png') repeat-x top left;
+	background-image: url('/images/AMS_body_background_blue.png');
+  top: left;
 	z-index: 10;
 	width: 962px;
 	margin-top: 32px;
