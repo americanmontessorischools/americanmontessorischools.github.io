@@ -3,22 +3,15 @@ body {
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
-#header {
+#main_banner {
 	position: relative;
 	height: 122px;
-	background-image: url('/images/AMS_body_background_blue.png');
+	background-image:url('/images/AMS_body_background_blue.png');
   top: left;
 	z-index: 10;
 	width: 962px;
 	margin-top: 32px;
 	padding-top: 20px;
-}
-
-img#logo {
-	position: absolute;
-	left: 10px;
-	z-index: 40;
-	top: -16px;
 }
 
 #top_nav {
@@ -91,13 +84,20 @@ ul.posts li {
     list-style: none;
 }
 
-IMG.displayed {
+img.displayed {
     float:left;
     width: 100%;
     max-width: 100%;
     max-height: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+img.logo {
+	position: absolute;
+	left: 10px;
+	z-index: 40;
+	top: -16px;
 }
 
 #main_section {
