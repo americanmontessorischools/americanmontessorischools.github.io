@@ -144,14 +144,10 @@ img.logo {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-#left_sidebar {
-  margin-left: 0;
-}
-
 #content_section {
 	width: 70%;
 	float:left;
-  padding-left: 5em;
+  padding-left: 2em;
 	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';

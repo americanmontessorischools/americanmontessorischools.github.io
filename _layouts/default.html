@@ -6,6 +6,21 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
+	    <script>
+	      var canvas = document.getElementById('aboutUsCanvas');
+	      var context = canvas.getContext('2d');
+
+	      context.beginPath();
+	      context.rect(188, 50, 200, 100);
+				context.font-size = 1em;
+				context.font-family = 'Helvetica', 'Arial', 'Sans-Serif';
+	      context.fillStyle = 'yellow';
+	      context.fill();
+				context.fillText("Learn About AMS", 5, 100);
+	      context.lineWidth = 7;
+	      context.strokeStyle = 'black';
+	      context.stroke();
+	    </script>
 			<div id="container">
 				<header role="banner">
 					  <div id="header">
