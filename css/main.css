@@ -131,7 +131,7 @@ img.logo {
 #left_sidebar {
 	width: 20%;
 	float:left;
-	padding-top: 1em;
+	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -140,7 +140,7 @@ img.logo {
 	width: 60%;
 	float:left;
   padding-left: 1em;
-	padding-top: 1em;
+	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -153,7 +153,7 @@ img.logo {
 #right_sidebar {
 	float: left;
 	width: 15%;
-	padding-top: 1em;
+	/*padding-top: 1em;*/
 	padding-left:1em;
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
