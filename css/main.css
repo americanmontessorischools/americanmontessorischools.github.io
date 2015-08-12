@@ -5,12 +5,12 @@ body {
 
 #main_banner {
 	position: relative;
-	height: 122px;
 	background-image:url('/images/AMS_body_background_blue.png') repeat-x top left;
+  height: 122px;
 	z-index: 10;
 	width: 962px;
-	margin-top: 32px;
-	padding-top: 20px;
+	margin-top: auto;
+	/*padding-top: 20px;*/
 }
 
 #top_nav {
