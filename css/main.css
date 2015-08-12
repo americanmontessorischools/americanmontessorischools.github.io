@@ -117,6 +117,8 @@ img.logo {
 	left: 10px;
 	z-index: 40;
 	top: -30px;
+  max-height: "35%"; 
+  style: "max-width: 85%";
   /*float:left;
   max-width: 100%;
   max-height: 50%;
