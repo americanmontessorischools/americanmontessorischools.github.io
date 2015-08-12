@@ -111,8 +111,9 @@ img.shrink {
 
 img.logo {
 	/*position: absolute;*/
-  width: 920;
-  height: 396;
+  width: 920px;
+  height: 396px;
+  padding-left: 30px;
 	margin-left: auto;
 }
 
