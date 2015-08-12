@@ -125,6 +125,11 @@ img#logo {
   margin-left: 12px;
 }
 
+#brand_msg {
+	position: absolute;
+  margin-left: 12px;
+}
+
 #main_section {
 	position: relative;
 	width: 100%;
