@@ -9,6 +9,11 @@
 	padding-top: 0.5em;
 }
 
+#header h3 {
+  display: block;
+  float: right;
+}
+
 body {
     /*background-image:url('/images/AMS_body_background_green.png');*/
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
