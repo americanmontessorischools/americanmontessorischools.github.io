@@ -92,6 +92,11 @@ img.displayed {
     margin-right: auto;
 }
 
+img.stretch {
+  width: 100%;
+  height: 150%;
+}
+
 img.logo {
 	/*position: absolute;
 	left: 10px;
