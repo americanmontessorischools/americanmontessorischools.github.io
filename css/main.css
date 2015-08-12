@@ -116,6 +116,11 @@ img.logo {
 	width: 100%;
 }
 
+#main_section_header {
+  float:left;
+	width: 100%;
+}
+
 #container {
 	width: 90%;
 	background-color:white;
