@@ -99,8 +99,6 @@ img.logo {
 	top: -30px;*/
   float:left;
   max-width: 100%;
-  width: 25%;
-  height: 25%;
   max-height: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -158,7 +156,7 @@ img.logo {
 	clear:both;
 	background-color: #3D59AB;
 	color: white;
-	line-height: 100%;
+	line-height: 50%;
 }
 
 #footer_text {
