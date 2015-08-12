@@ -14,11 +14,14 @@
 			context.strokeStyle = "#000";
 			context.lineWidth = 0.1;
 			for (var i=0; i<8; i++) {
+			   context.beginPath();
 			   context.fillStyle = "#3c0";
-			   context.fillRect(30, 0 + (i * 50), 50, 50);
-			   context.strokeRect(30, 0 + (i * 50), 50, 50);
+			   context.rect(30, 0 + (i * 50), 50, 50);
+			   context.fill();
+			   context.stroke();
+
 			   context.fillStyle = "#fff";
-			   context.fillText("Learn About AMS", 0, 0 + (i * 50));
+			   context.fillText("blah", 0, 0 + (i * 50));
 			}
 
 	    </script>
