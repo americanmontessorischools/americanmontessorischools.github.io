@@ -3,16 +3,6 @@ body {
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
-#main_banner {
-	position: relative;
-	background-image:url('/images/AMS_body_background_blue.png') repeat-x top left;
-  height: 122px;
-	z-index: 10;
-	width: 962px;
-	margin-top: auto;
-	/*padding-top: 20px;*/
-}
-
 #top_nav {
 	background-color: #3D59AB;
 	margin: 0 auto;
