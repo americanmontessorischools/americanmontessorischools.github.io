@@ -144,23 +144,8 @@ img#logo {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-.icon-list, .icon-list li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.icon-list li {
-  margin: 1em;
-  margin-left: 3em;
-}
-
-.icon-list li:before {
-  content: '\f006'; /* fa-star */
-  font-family: 'FontAwesome';
-  float: left;
-  margin-left: -1.5em;
-  color: #0074D9;
+#left_sidebar ul {
+  list-style-image: url('/images/AMS_list_tick_mark.png');
 }
 
 #content_section {
