@@ -111,7 +111,7 @@ img.shrink {
 
 img.logo {
 	position: absolute;
-	left: 170px;
+	margin-left: 170px;
 }
 
 #main_section {
