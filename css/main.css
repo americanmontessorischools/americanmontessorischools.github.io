@@ -9,6 +9,11 @@
 	padding-top: 20px;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
     /*background-image:url('/images/AMS_body_background_green.png');*/
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
