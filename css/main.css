@@ -109,12 +109,11 @@ img.shrink {
   margin-right: auto;
 }
 
-img.logo {
+img#logo {
 	/*position: absolute;*/
   width: 920px;
   height: 396px;
-  padding-left: 30px;
-  margin: 0 auto;
+  margin-left: 15px;
 }
 
 #main_section {
