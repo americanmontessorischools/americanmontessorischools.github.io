@@ -1,13 +1,6 @@
 body {
-    /* background-image:url('/images/AMS_body_background.png'); */
+    background-image:url('/images/AMS_body_background_blue_long.png');
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
-}
-
-.header-shadow{
-    background-image: url('/images/AMS_body_background_blue_long.png');
-    background-repeat: repeat-y; /* for vertical repeat */
-    background-repeat: repeat-x; /* for horizontal repeat */
-    height:100%;
 }
 
 #top_nav {
@@ -103,10 +96,6 @@ img.shrink {
   max-height: 25%;
   margin-left: auto;
   margin-right: auto;
-}
-
-img.logo_background {
-
 }
 
 img.logo {
