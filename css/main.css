@@ -23,6 +23,8 @@
 body {
     /*background-image:url('/images/AMS_body_background_green.png');*/
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+    border-color: #3D59AB;
+    line-height: normal;
 }
 
 #top_nav {
