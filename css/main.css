@@ -21,7 +21,8 @@
 }
 
 body {
-    background-image:url('/images/AMS_body_background_green.png');
+    background-color:#00FF00;
+    /*background-image:url('/images/AMS_body_background_green.png');*/
     font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
