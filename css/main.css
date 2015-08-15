@@ -38,7 +38,7 @@ body {
 	padding: 0;
 	vertical-align: top;
   font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
-  font-weight: bold;
+  /*font-weight: bold;*/
 	}
 
 #top_nav li {
