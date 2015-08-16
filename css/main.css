@@ -1,7 +1,7 @@
 #header {
 	position: relative;
 	/*height: 122px;*/
-  background-color: #3D59AB;
+  background-color: #2589C6;
 	/*background: url('/images/AMS_body_background_blue_long.png') repeat-x top left;*/
 	z-index: 10;
 	width: 100%;
@@ -27,7 +27,7 @@ body {
 }
 
 #top_nav {
-	background-color: #3D59AB;
+	background-color: #D5DFF0;
 	margin: 0 auto;
 	text-align: center;
 	}
@@ -49,7 +49,7 @@ body {
 
 #top_nav a:link {
 	text-decoration:none;
-	background-color:#3D59AB;
+	background-color:#D5DFF0;
 	color: #FFFFFF;
 	padding: 10px 20px;
 	display: inline-block;
@@ -58,13 +58,13 @@ body {
 #top_nav a:visited {
 	text-decoration:none;
 	color: #FFFFFF;
-	background-color:#3D59AB;
+	background-color:#D5DFF0;
 	padding: 10px 20px;
 	display: inline-block;
 	}
 
 #top_nav a:active {
-	background-color: #3D59AB;
+	background-color: #D5DFF0;
 	}
 
 #top_nav a:hover {
