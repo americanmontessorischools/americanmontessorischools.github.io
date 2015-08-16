@@ -58,7 +58,7 @@ body {
 #top_nav a:visited {
 	text-decoration:none;
 	color: #222222;
-	border-bottom:0.2em solid #FF0000;
+	border-bottom:0.3em solid #FF0000;
 	/*background-color:#D5DFF0;*/
 	padding: 10px 20px;
 	display: inline-block;
@@ -66,12 +66,12 @@ body {
 
 #top_nav a:active {
 	/*background-color: #D5DFF0;*/
-	border-bottom:0.2em solid #FF0000;
+	border-bottom:0.3em solid #FF0000;
 	}
 
 #top_nav a:hover {
 	/*background-color:#FF0000;*/
-	border-bottom:0.2em solid #FF0000;
+	border-bottom:0.3em solid #FF0000;
 	}
 
 h1 {
