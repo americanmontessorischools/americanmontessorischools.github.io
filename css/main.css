@@ -16,7 +16,7 @@
   font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
   margin-top: 0px;
   padding-top: 0px;
-  color:white;
+  color: #A7CC53;
   padding-right:2px;
 }
 
@@ -128,7 +128,7 @@ img.shrink {
 
 img#logo {
 	/*position: absolute;*/
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 #brand_msg {
