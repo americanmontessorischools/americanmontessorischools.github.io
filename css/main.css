@@ -1,8 +1,8 @@
 #header {
 	position: relative;
 	/*height: 122px;*/
-  /*background-color: #2589C6;
-	background: url('/images/AMS_body_background_blue_long.png') repeat-x top left;*/
+  	background-color: #2589C6;
+	/*background: url('/images/AMS_body_background_blue_long.png') repeat-x top left;*/
 	z-index: 10;
 	width: 100%;
 	margin-top: 0.5em;
@@ -27,7 +27,7 @@ body {
 }
 
 #top_nav {
-	background-color: #2589C6;
+	background-color: #104E8B;
 	margin: 0 auto;
 	text-align: center;
 	border-bottom:3px solid #A7CC53;
@@ -203,7 +203,7 @@ img#logo {
 
 #footer {
 	clear:both;
-	background-color: #2589C6;
+	background-color: #104E8B;
 	color: #A7CC53;
 	line-height: 15%;
 }
