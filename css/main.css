@@ -27,7 +27,7 @@ body {
 }
 
 #top_nav {
-	background-color: #D5DFF0;
+	/*background-color: #D5DFF0;*/
 	margin: 0 auto;
 	text-align: center;
 	}
@@ -49,7 +49,7 @@ body {
 
 #top_nav a:link {
 	text-decoration:none;
-	background-color:#D5DFF0;
+	/*background-color:#D5DFF0;*/
 	color: #222222;
 	padding: 10px 20px;
 	display: inline-block;
@@ -58,17 +58,19 @@ body {
 #top_nav a:visited {
 	text-decoration:none;
 	color: #222222;
-	background-color:#D5DFF0;
+	/*background-color:#D5DFF0;*/
 	padding: 10px 20px;
 	display: inline-block;
 	}
 
 #top_nav a:active {
 	background-color: #D5DFF0;
+	border-bottom:0.5em solid #FF0000;
 	}
 
 #top_nav a:hover {
 	background-color:#FF0000;
+	border-bottom:0.5em solid #FF0000;
 	}
 
 h1 {
