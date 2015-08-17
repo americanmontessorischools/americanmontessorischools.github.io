@@ -88,12 +88,6 @@ p {
     color: #333;
 }
 
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-family: 'georgia','times new roman','times','serif'
-    font-size: .8em;
-}
-
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
@@ -200,6 +194,12 @@ img#logo {
 	padding-left:1em;
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-family: 'georgia','times new roman','times','serif'
+    font-size: 1em;
 }
 
 #footer {
