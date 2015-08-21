@@ -88,10 +88,14 @@ body {
 
 #nav_about_us ul {
 	list-style:none;
-	margin:0;
-	padding: 0;
+	margin-bottom: 0;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	border-bottom-color: #eaeaea;
+	background-color: white;
+	position: relative;
 	vertical-align: bottom;
-  font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+    font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 	/*color: #A7CC53;*/
   /*font-weight: bold;*/
 	}
