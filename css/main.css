@@ -77,6 +77,58 @@ body {
 	border-bottom:3px solid #FF0000;
 	}
 
+.subNavigation:after  {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+	
+.subNavigation { 
+	border-width: 0 0 1px 0;
+	padding: 10px; 
+}
+
+.subNavigation .inlineSearchControl .text {
+	margin-right: 3px;
+}
+
+.subNavigation .inlineSearchControl {
+  float:left;
+}
+
+/* columns */
+
+.subNavigation .column { 
+	border-right: 1px solid #ccc;
+	height: 38px;
+	margin-right: 0; 
+	min-height: 38px;
+} 
+
+.subNavigation div.last,
+.subNavigation .lastColumn { 
+	border-right: none;
+	margin-right: 0;
+}
+
+.subNavigation .columnGroup { 
+	margin-bottom: 0; 
+	margin-left: 10px; 
+	margin-right: 10px;
+	}
+	
+.subNavigation .first .columnGroup,
+.subNavigation .firstColumn .columnGroup { 
+	margin-left: 0px;
+}
+
+.subNavigation .last .columnGroup,
+.subNavigation .lastColumn .columnGroup { 
+	margin-right: 0px; 
+}
+
 /* Sub Nav for About Us page */
 #nav_about_us {
 	/*background-color: #104E8B;*/
