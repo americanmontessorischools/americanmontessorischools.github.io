@@ -312,6 +312,11 @@ img#logo {
   font-family: 'georgia','times new roman','times','serif';
 }
 
+#board_section p {
+  font-size: 1.5em;
+  font-family: 'georgia','times new roman','times','serif';
+}
+
 #right_sidebar {
 	float: left;
 	width: 15%;
