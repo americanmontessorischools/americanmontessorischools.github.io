@@ -312,8 +312,8 @@ img#logo {
   font-family: 'georgia','times new roman','times','serif';
 }
 
-#board_section p {
-  font-size: 0.75em;
+#board_section {
+  font-size: 1em;
   font-family: 'georgia','times new roman','times','serif';
 }
 
@@ -353,56 +353,6 @@ img#logo {
 
 #footer_text a {
 	color: #A7CC53;
-}
-
-.Outercontent-Box ul {
-	list-style: outside none;
-	color: #343434;
-	margin: 10px 10px;
-	padding: 0px;
-}
-
-.Outercontent-Box ul li 
-{
-	font:normal 12px/1.3em Arial, Helvetica, sans-serif;
-	margin:5px 0 0 0;
-	background: url(/images/Arr-Bullet.gif) 3px 2px no-repeat;
-	padding-left:20px;
-	
-}
-.Outercontent-Box ul ul {
-	padding-left:10px;
-	padding-bottom:0px;
-	list-style: outside none;
-	
-}
-.Outercontent-Box ul ul li 
-{
-	font:italic 12px/1.3em Arial, Helvetica, sans-serif;
-	/*background: url(/images/Arr-Bullet-Grey.gif) 3px 2px no-repeat;*/
-	padding-left:20px;
-
-	
-}
-.Outercontent-Box ol {
-	padding-left:30px;
-	padding-bottom:17px;
-	padding-top: 10px;
-}
-.Outercontent-Box ol li 
-{
-	font:normal 12px/1.3em Arial, Helvetica, sans-serif;
-	list-style: outside decimal;
-	
-}
-.Outercontent-Box ol ol {
-	padding-left:20px;
-	padding-bottom:5px;
-	list-style:square;
-}
-.Outercontent-Box ol ol li 
-{
-	font:italic 12px/1.3em Arial, Helvetica, sans-serif;
 }
 
 .rotate90 {
