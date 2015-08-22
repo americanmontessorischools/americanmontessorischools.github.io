@@ -268,3 +268,15 @@ header {
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+#container {
+    width: 90%;
+    background-color:white;
+    position: relative;
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1082px;
+  /*background-image:url('/images/AMS_body_background.png');*/
+  border: solid 2px 3D59AB;
+}
