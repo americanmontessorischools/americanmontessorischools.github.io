@@ -100,11 +100,19 @@ body {
   /*font-weight: bold;*/
 	}
 
-#nav_about_us li {
-	margin:0;
-	padding-bottom:5px;
-	display:inline;
-	}
+#nav_abount_us li {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 16px;
+    line-height: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Helvetica",arial,helvetica,sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: capitalize;
+    color: #000;
+}
 
 #nav_about_us a:link {
 	text-decoration:none;
