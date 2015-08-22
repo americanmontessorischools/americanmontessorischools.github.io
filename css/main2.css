@@ -219,3 +219,19 @@ header {
     }
 }
 
+#left_sidebar {
+    width: 20%;
+    float:left;
+    /*padding-top: 1em;*/
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+#left_sidebar ul {
+  list-style-image: url('/images/AMS_list_tick_mark.png');
+}
+
+#left_sidebar li {
+  font-size: 1em;
+  font-family: 'georgia','times new roman','times','serif';
+}
