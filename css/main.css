@@ -313,7 +313,7 @@ img#logo {
 }
 
 #board_section p {
-  font-size: 1em;
+  font-size: 0.75em;
   font-family: 'georgia','times new roman','times','serif';
 }
 
@@ -326,7 +326,7 @@ img#logo {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-footer {
+#footer {
     border-top: 1px solid #d5d5d5;
     font-size: .75em;
 }
