@@ -235,3 +235,36 @@ header {
   font-size: 1em;
   font-family: 'georgia','times new roman','times','serif';
 }
+
+#main_section {
+    position: relative;
+    width: 100%;
+}
+
+#main_section_header {
+  float:left;
+    width: 100%;
+}
+
+#content_section {
+    width: 60%;
+    float:left;
+  padding-left: 2em;
+    /*padding-top: 1em;*/
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+#content_section p {
+  font-size: 1em;
+  font-family: 'georgia','times new roman','times','serif';
+}
+
+#right_sidebar {
+    float: left;
+    width: 15%;
+    /*padding-top: 1em;*/
+    padding-left:1em;
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
