@@ -1,16 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
+			<meta name="viewport" content="initial-scale=1">
 			<title>{{ page.title }}</title>
 			<meta name="description" contect=" private montessori school located in Hillsborough,  New Jersey USA educating infant toddler through sixth grade, 2 to 6 years olds"/>
 			<meta name="keywords" content="Hillsborough, Bridgewater, Raritan, Somerset, montessori, school, new jersey, nj, USA, day care, expanded care, summer camp, kindergarten, elementary, toddler, private school" />
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/main2.css">
 
 			<!-- IE6-8 support of HTML5 elements --> <!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
 
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script type="text/javascript" src="/css/menu.js"></script>
 		</head>
 		<body>
 			<div id="fb-root"></div>
@@ -23,26 +26,25 @@
 			}(document, 'script', 'facebook-jssdk'));
 			</script>
 			<div id="container">
-				<header role="banner">
-					  <div id="header">
-							<h3>Our Hillsborough location: <br>67 US-206, Hillsborough Township, <br>NJ 08844 <br>Phone: 908.977.6640</h3>
-							<div>
-								<a href="/"><img id="logo" src="/images/AMS_flame_logo.png" alt="American Montessori School Message pic"/></a>
-							</div>
-						</div>
-						<section>
-						<nav role="navigation">
-							<div id="top_nav">
+				<header>
+				  <div id="logo" class="menuUp">
+				        <div id="navToggle"><a href="#">Menu</a></div>
+
+				  </div>
+				  <nav>
 				    		<ul>
 									<li><a href="/">Home</a></li>
-									<li><a href="/about">About Us &raquo;</a>
-<!--
-										<ul id="sub_nav">
-											<li><a href="#">What is Montessori</a></li>
-											<li><a href="#">Our Mission</a></li>
-											<li><a href="#">Meet our School Board</a></li>
-											<li><a href="#">Montessori Resources</a></li>
-										</ul> -->
+                <a href="#">Blog <span class="toggle">Expand</span><span class="caret"></span></a>
+
+									<li><a href="/about">About Us <span class="toggle">Expand</span><span class="caret"></span></a>
+										<nav>
+											<ul id="sub_nav">
+												<li><a href="#">What is Montessori</a></li>
+												<li><a href="#">Our Mission</a></li>
+												<li><a href="#">Meet our School Board</a></li>
+												<li><a href="#">Montessori Resources</a></li>
+											</ul> 
+										</nav>
 									</li>
 									<li><a href="/admissions">Admissions</a></li>
 									<li><a href="/about">Programs</a></li>
@@ -51,7 +53,7 @@
 								</ul>
 							</div> <!--/.top_nav -->
 						</nav>
-						</section>
+
 				</header>
 
 			{{ content }}
