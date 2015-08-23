@@ -114,6 +114,9 @@ body {
     vertical-align: top;
     text-transform: capitalize;
     color: #000;
+    margin: 0;
+    border: none;
+    border-right: 1px solid #e2e2e2;
 }
 
 #nav_about_us a:link {
