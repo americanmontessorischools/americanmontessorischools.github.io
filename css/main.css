@@ -112,6 +112,10 @@ body {
   /*font-weight: bold;*/
 	}
 
+#last-child { 
+	border: none;
+}
+
 #nav_about_us li {
     font-size: 0.90em;
     line-height: 16px;
@@ -130,11 +134,6 @@ body {
 	float: none; 
 }
 
-#last { 
-	float: none;
-	border: none;
-	margin: 0;
-}
 
 #nav_about_us a:link {
 	text-decoration:none;
