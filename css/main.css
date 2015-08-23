@@ -123,8 +123,8 @@ body {
 }
 
 .last { 
-	border-left: none; 
-	padding-left: 0;
+	border-right: none; 
+	padding-right: 0;
 }
 
 #nav_about_us a:link {
