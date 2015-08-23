@@ -394,6 +394,15 @@ img#logo {
   font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
 }
 
+#content_section {
+	width: 85%;
+	float:left;
+  padding-left: 2em;
+	/*padding-top: 1em;*/
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 #right_sidebar_admin {
 	float: left;
 	width: 35%;
