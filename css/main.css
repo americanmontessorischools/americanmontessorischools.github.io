@@ -394,7 +394,7 @@ img#logo {
   font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
 }
 
-#content_section {
+#content_section_admin {
 	width: 85%;
 	float:left;
   padding-left: 2em;
@@ -413,19 +413,19 @@ img#logo {
 }
 
 img#admission {
-	width: 150px; 
-	height: 75px;
+	width: 75%; 
+	height: 75%;
 	float: right;
 	margin: 0px; 
 	border-width: 0px; 
 	border-style: solid;
 }
 
-p.clear {
+#content_section_admin p {
 	clear: both;
 }
 
-#left_sidebar_admin p {
+#content_section_admin p {
   font-size: 1em;
   font-family: 'georgia','times new roman','times','serif';
 }
