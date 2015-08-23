@@ -118,11 +118,14 @@ body {
 }
 
 #first { 
-	border-left: none; 
+	border-left: none;
+	float: none; 
 }
 
 #last { 
+	float: none;
 	border: none;
+	margin: 0;
 }
 
 #nav_about_us a:link {
