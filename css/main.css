@@ -325,6 +325,7 @@ img#logo {
 	width: 60%;
 	float:left;
   padding-left: 2em;
+  padding-bottom: 1em;
 	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
