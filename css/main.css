@@ -117,6 +117,16 @@ body {
     border-right: 1px solid #e2e2e2;
 }
 
+.first { 
+	border-left: none; 
+	padding-left: 0;
+}
+
+.last { 
+	border-left: none; 
+	padding-left: 0;
+}
+
 #nav_about_us a:link {
 	text-decoration:none;
 	/*background-color:#D5DFF0;*/
