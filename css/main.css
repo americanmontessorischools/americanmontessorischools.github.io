@@ -387,8 +387,8 @@ img#logo {
 }
 
 img#admission {
-	/*width: 300px; 
-	height: 150px; */
+	width: 300px; 
+	height: 150px;
 	float: right;
 	margin: 0px; 
 	border-width: 0px; 
