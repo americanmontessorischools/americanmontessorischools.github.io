@@ -126,10 +126,10 @@ body {
     vertical-align: top;
     color: #000;
     margin: 0;
-    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
 }
 
-#first { 
+#first-child { 
 	border-left: none;
 	float: none; 
 }
