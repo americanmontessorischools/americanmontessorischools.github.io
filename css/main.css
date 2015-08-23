@@ -331,7 +331,7 @@ img#logo {
 }
 
 #content_section p {
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'georgia','times new roman','times','serif';
 }
 
@@ -416,8 +416,9 @@ p.clear {
 	clear: both;
 }
 
-
-p.txt {
-    font-size: 0.5em;
-    font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
+#left_sidebar_admin p {
+  font-size: 1em;
+  font-family: 'georgia','times new roman','times','serif';
 }
+
+
