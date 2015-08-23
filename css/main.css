@@ -395,7 +395,7 @@ img#logo {
 }
 
 #content_section_admin {
-	width: 85%;
+	width: 60%;
 	float:left;
   padding-left: 2em;
 	/*padding-top: 1em;*/
@@ -421,7 +421,7 @@ img#admission {
 	border-style: solid;
 }
 
-#content_section_admin p {
+p.clear {
 	clear: both;
 }
 
