@@ -83,8 +83,9 @@ body {
 	/*background-color: #104E8B;*/
 	margin: 0 auto;
 	text-align: center;
-	/*border-bottom:3px solid #A7CC53;*/
-	height: 36px;
+	border-bottom:1px solid #A7CC53;
+	height: auto;
+	width: auto;
 	}
 
 #nav_about_us ul {
