@@ -97,6 +97,7 @@ body {
 	background-color: white;
 	position: relative;
 	vertical-align: bottom;
+	font-size: 0;
     font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 	/*color: #A7CC53;*/
   /*font-weight: bold;*/
