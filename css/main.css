@@ -328,6 +328,7 @@ img#logo {
 	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  text-align: justify;
 }
 
 #content_section p {
@@ -338,6 +339,7 @@ img#logo {
 #board_section {
   font-size: 1em;
   font-family: 'georgia','times new roman','times','serif';
+  text-align: justify;
 }
 
 #right_sidebar {
