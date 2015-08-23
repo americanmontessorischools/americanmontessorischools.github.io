@@ -75,6 +75,7 @@ body {
 #top_nav a:hover {
 	/*background-color:#FF0000;*/
 	border-bottom:3px solid #FF0000;
+	padding-bottom: 0;
 	}
 
 /* Sub Nav for About Us page */
@@ -140,7 +141,6 @@ body {
 	/*background-color:#FF0000;*/
 	border-bottom:3px solid #FF0000;
 	padding-bottom: 0;
-	margin-bottom: -3px;
 	}
 
 /* Drop-Down Navigation */
