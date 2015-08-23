@@ -126,10 +126,11 @@ body {
     vertical-align: top;
     color: #000;
     margin: 0;
-    border-left: 1px solid #e2e2e2;
+    border: none;
+    /*border-left: 1px solid #e2e2e2;*/
 }
 
-#first-child { 
+li.firstItem { 
 	border-left: none;
 	float: none; 
 }
