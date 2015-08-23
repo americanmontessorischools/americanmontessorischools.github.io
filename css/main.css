@@ -135,18 +135,12 @@ body {
 	/*background-color: #D5DFF0;*/
 	border-bottom:0.3em solid #FF0000;
 	}
-a:hover:after  {
-    content: "";
-    border-bottom: 2px solid #ec6713;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 3px;
-}
+
 #nav_about_us a:hover {
 	/*background-color:#FF0000;*/
 	border-bottom:3px solid #FF0000;
 	padding-bottom: 0;
+	margin-bottom: -3px;
 	}
 
 /* Drop-Down Navigation */
