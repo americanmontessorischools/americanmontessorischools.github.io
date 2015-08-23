@@ -124,8 +124,7 @@ body {
 }
 
 .last { 
-	border-right: none; 
-	padding-right: 0;
+	border: none;
 }
 
 #nav_about_us a:link {
