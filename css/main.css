@@ -90,6 +90,13 @@ body {
 
 #nav_about_us ul {
 	list-style:none;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	top: 0;
+	position: relative;
+	clear: both;
+	white-space: normal;
+	border-bottom-color: 1px #eaeaea;
 	/*
 	margin: 0;
 	margin-bottom: 0;
@@ -98,9 +105,9 @@ body {
 	border-bottom-color: #eaeaea;
 	background-color: white;
 	position: relative;
-	vertical-align: bottom; */
+	vertical-align: bottom; 
 	font-size: 0;
-    font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+    font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';*/
 	/*color: #A7CC53;*/
   /*font-weight: bold;*/
 	}
