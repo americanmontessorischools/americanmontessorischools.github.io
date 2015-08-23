@@ -431,4 +431,12 @@ p.clear {
   text-align: justify;
 }
 
+#content_section_prog {
+	width: 75%;
+	float:left;
+  padding-left: 2em;
+	/*padding-top: 1em;*/
+  font-size: 1em;
+  font-family:'georgia', 'Helvetica', 'Arial', 'Sans-Serif';
+}
 
