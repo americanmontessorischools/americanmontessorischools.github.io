@@ -112,7 +112,7 @@ body {
   /*font-weight: bold;*/
 	}
 
-#last-child { 
+#nav_about_us ul li:last-child { 
 	border: none;
 }
 
