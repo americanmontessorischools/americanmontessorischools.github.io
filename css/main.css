@@ -118,12 +118,12 @@ body {
     /*border-right: 1px solid #e2e2e2;*/
 }
 
-.first { 
+#first { 
 	border-left: none; 
 	padding-left: 0;
 }
 
-.last { 
+#last { 
 	border: none;
 }
 
