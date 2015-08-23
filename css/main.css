@@ -146,6 +146,7 @@ a:hover:after  {
 #nav_about_us a:hover {
 	/*background-color:#FF0000;*/
 	border-bottom:3px solid #FF0000;
+	padding-bottom: 0;
 	}
 
 /* Drop-Down Navigation */
