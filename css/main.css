@@ -381,6 +381,7 @@ img#logo {
 }
 
 .rotate90 {
+	margin: "0px 20px";
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
