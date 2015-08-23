@@ -90,7 +90,6 @@ body {
 
 #nav_about_us ul {
 	list-style:none;
-	margin: 0;
 	margin-bottom: 0;
 	padding-top: 8px;
 	padding-bottom: 6px;
@@ -112,7 +111,7 @@ body {
     display: inline-block;
     vertical-align: top;
     color: #000;
-    margin: 2;
+    margin: 0;
     border: none;
     border-right: 1px solid #e2e2e2;
 }
