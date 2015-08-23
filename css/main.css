@@ -136,9 +136,14 @@ body {
 	border-bottom:0.3em solid #FF0000;
 	}
 
-#nav_about_us a:hover {
+#nav_about_us a:hover:after {
 	/*background-color:#FF0000;*/
-	border-bottom:3px solid #FF0000;
+    content: "";
+    border-bottom:0.3em solid #FF0000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
 	}
 
 /* Drop-Down Navigation */
