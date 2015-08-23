@@ -136,7 +136,7 @@ body {
 	border-bottom:0.3em solid #FF0000;
 	}
 
-#nav_about_us a:hover:after {
+#nav_about_us a:hover {
 	/*background-color:#FF0000;*/
     content: "";
     border-bottom:0.3em solid #FF0000;
