@@ -395,7 +395,7 @@ img#logo {
 }
 
 #content_section_admin {
-	width: 60%;
+	width: 45%;
 	float:left;
   padding-left: 2em;
 	/*padding-top: 1em;*/
@@ -405,7 +405,7 @@ img#logo {
 
 #right_sidebar_admin {
 	float: left;
-	width: 35%;
+	width: 50%;
 	/*padding-top: 1em;*/
 	padding-left:1em;
   font-size: 1em;
