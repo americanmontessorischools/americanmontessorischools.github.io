@@ -386,6 +386,14 @@ img#logo {
     transform: rotate(90deg);
 }
 
+#left_sidebar_admin {
+	width: 10%;
+	float:left;
+	/*padding-top: 1em;*/
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 img#admission {
 	width: 300px; 
 	height: 150px;
