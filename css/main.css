@@ -89,6 +89,7 @@ body {
 	}
 
 #nav_about_us ul {
+	display: inline;
 	list-style:none;
 	padding-top: 10px;
 	padding-bottom: 3px;
