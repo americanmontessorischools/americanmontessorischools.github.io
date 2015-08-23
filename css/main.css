@@ -440,3 +440,13 @@ p.clear {
   font-family:'georgia', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+#content_section_prog p {
+  font-size: 1em;
+  font-family: 'georgia','times new roman','times','serif';
+  text-align: justify;
+}
+
+#content_section_prog h1 {
+    font-size: 2em;
+    font-family:'georgia','Helvetica', 'Arial', 'Sans-Serif';
+}
