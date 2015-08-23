@@ -415,3 +415,9 @@ img#admission {
 p.clear {
 	clear: both;
 }
+
+
+p.txt {
+    font-size: 1em;
+    font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
+}
