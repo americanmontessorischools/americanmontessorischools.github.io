@@ -61,7 +61,8 @@ body {
 #top_nav a:visited {
 	text-decoration:none;
 	color: #A7CC53;
-	border-bottom:0.3em solid #FF0000;
+	text-decoration:underline;color:#FF0000;
+	/*border-bottom:0.3em solid #FF0000;*/
 	/*background-color:#D5DFF0;*/
 	padding: 10px 20px;
 	display: inline-block;
@@ -69,12 +70,14 @@ body {
 
 #top_nav a:active {
 	/*background-color: #D5DFF0;*/
-	border-bottom:0.3em solid #FF0000;
+	text-decoration:underline;color:#FF0000;
+	/*border-bottom:0.3em solid #FF0000;*/
 	}
 
 #top_nav a:hover {
 	/*background-color:#FF0000;*/
-	border-bottom:3px solid #FF0000;
+	text-decoration:underline;color:#FF0000;
+	/*border-bottom:3px solid #FF0000;*/
 	padding-bottom: 0;
 	}
 
