@@ -89,6 +89,7 @@ body {
 	}
 
 #nav_about_us ul {
+	display: inline;
 	list-style:none;
 	padding-top: 10px;
 	padding-bottom: 3px;
@@ -118,7 +119,6 @@ body {
 
 #nav_about_us li {
     font-size: 0.90em;
-    line-height: 16px;
     font-weight: 500;
     font-style: normal;
     font-family: "Helvetica",arial,helvetica,sans-serif;
@@ -307,6 +307,7 @@ img#logo {
 #left_sidebar {
 	width: 20%;
 	float:left;
+	padding-bottom: 1em;
 	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -325,9 +326,11 @@ img#logo {
 	width: 60%;
 	float:left;
   padding-left: 2em;
+  padding-bottom: 1em;
 	/*padding-top: 1em;*/
   font-size: 1em;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
+  text-align: justify;
 }
 
 #content_section p {
@@ -338,6 +341,7 @@ img#logo {
 #board_section {
   font-size: 1em;
   font-family: 'georgia','times new roman','times','serif';
+  text-align: justify;
 }
 
 #right_sidebar {
@@ -379,6 +383,7 @@ img#logo {
 }
 
 .rotate90 {
+	margin: "0px 20px";
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -406,6 +411,7 @@ img#logo {
 #right_sidebar_admin {
 	float: left;
 	width: 50%;
+	padding-bottom: 1em;
 	/*padding-top: 1em;*/
 	padding-left:1em;
   font-size: 1em;
@@ -432,7 +438,7 @@ p.clear {
 }
 
 #content_section_prog {
-	width: 75%;
+	width: 70%;
 	float:left;
   padding-left: 2em;
 	/*padding-top: 1em;*/
