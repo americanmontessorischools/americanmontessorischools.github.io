@@ -359,6 +359,7 @@ img#logo {
 }
 
 #footer {
+	margin: 1em;
 	clear:both;
 	background-color: #104E8B;
 	color: #A7CC53;
