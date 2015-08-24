@@ -307,7 +307,6 @@ img#logo {
 #left_sidebar {
 	width: 20%;
 	float:left;
-	padding-bottom: 1em;
 	/*padding-top: 1em;*/
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -326,10 +325,9 @@ img#logo {
 	width: 60%;
 	float:left;
   padding-left: 2em;
-  padding-bottom: 1em;
 	/*padding-top: 1em;*/
   font-size: 1em;
-  font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   text-align: justify;
 }
 
@@ -411,7 +409,6 @@ img#logo {
 #right_sidebar_admin {
 	float: left;
 	width: 50%;
-	padding-bottom: 1em;
 	/*padding-top: 1em;*/
 	padding-left:1em;
   font-size: 1em;
