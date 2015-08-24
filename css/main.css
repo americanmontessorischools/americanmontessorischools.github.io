@@ -79,7 +79,7 @@ body {
 #top_nav a:hover {
 	/*background-color:#FF0000;*/
 	text-decoration:underline;
-	color:#FF0000;
+	color:#A7CC53;
 	/*border-bottom:3px solid #FF0000;*/
 	padding-bottom: 0;
 	}
@@ -161,12 +161,15 @@ li.firstItem {
 
 #nav_about_us a:active {
 	/*background-color: #D5DFF0;*/
-	border-bottom:0.3em solid #FF0000;
+	color:#A7CC53;
+	/*border-bottom:0.3em solid #FF0000;*/
 	}
 
 #nav_about_us a:hover {
 	/*background-color:#FF0000;*/
-	border-bottom:2px solid #FF0000;
+	text-decoration:underline;
+	color: #A7CC53;
+	/*border-bottom:2px solid #FF0000;*/
 	padding-bottom: 0;
 	}
 
