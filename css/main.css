@@ -14,7 +14,7 @@
   display: block;
   float: right;
   font-size: 0.85em;
-  font-family: 'georgia','times new roman','times','serif';
+  font-family: 'times new roman','times','serif';
   margin-top: 0px;
   padding-top: 0px;
   color: #A7CC53;
@@ -329,7 +329,7 @@ img#logo {
 
 #left_sidebar li {
   font-size: 1em;
-  font-family: 'georgia','times new roman','times','serif';
+  font-family: 'times new roman','times','serif';
 }
 
 #content_section {
@@ -339,18 +339,18 @@ img#logo {
   padding-bottom: 1em;
 	/*padding-top: 1em;*/
   font-size: 1em;
-  font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'times new roman','Helvetica', 'Arial', 'Sans-Serif';
   text-align: justify;
 }
 
 #content_section p {
   font-size: 1em;
-  font-family: 'georgia','times new roman','times','serif';
+  font-family: 'times new roman','times new roman','times','serif';
 }
 
 #board_section {
   font-size: 1em;
-  font-family: 'georgia','times new roman','times','serif';
+  font-family: 'times new roman','times new roman','times','serif';
   text-align: justify;
 }
 
@@ -407,7 +407,7 @@ img#logo {
 	float:left;
 	/*padding-top: 1em;*/
   font-size: 0.85em;
-  font-family: 'georgia','Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'times new roman','Helvetica', 'Arial', 'Sans-Serif';
 }
 
 #content_section_admin {
@@ -444,7 +444,7 @@ p.clear {
 
 #content_section_admin p {
   font-size: 1em;
-  font-family: 'georgia','times new roman','times','serif';
+  font-family: 'times new roman','times new roman','times','serif';
   text-align: justify;
 }
 
@@ -454,20 +454,20 @@ p.clear {
   padding-left: 2em;
 	/*padding-top: 1em;*/
   font-size: 1em;
-  font-family:'georgia', 'Helvetica', 'Arial', 'Sans-Serif';
+  font-family:'times new roman', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 #content_section_prog p {
   font-size: 1em;
-  font-family: 'georgia','times new roman','times','serif';
+  font-family: 'times new roman','times new roman','times','serif';
   text-align: justify;
 }
 
 #content_section_prog h1 {
     font-size: 2em;
-    font-family:'georgia','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'times new roman','Helvetica', 'Arial', 'Sans-Serif';
 }
 
 #content_section_prog h4 {
-    font-family:'georgia','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'times new roman','Helvetica', 'Arial', 'Sans-Serif';
 }
