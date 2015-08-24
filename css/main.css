@@ -457,3 +457,7 @@ p.clear {
     font-size: 2em;
     font-family:'georgia','Helvetica', 'Arial', 'Sans-Serif';
 }
+
+#content_section_prog h4 {
+    font-family:'georgia','Helvetica', 'Arial', 'Sans-Serif';
+}
