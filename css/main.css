@@ -51,17 +51,17 @@ body {
 	}
 
 #top_nav a:link {
-	/*text-decoration:none;
-	background-color:#D5DFF0;*/
+	text-decoration:none;
+	/*background-color:#D5DFF0;*/
 	color: #A7CC53;
 	padding: 10px 20px;
 	display: inline-block;
 	}
 
 #top_nav a:visited {
-	/*text-decoration:none;*/
-	color: #A7CC53;
-	text-decoration:underline;
+	text-decoration:none;
+	/*color: #A7CC53;
+	text-decoration:underline;*/
 	color:#A7CC53;
 	/*border-bottom:0.3em solid #FF0000;*/
 	/*background-color:#D5DFF0;*/
@@ -70,8 +70,8 @@ body {
 	}
 
 #top_nav a:active {
-	/*background-color: #D5DFF0;*/
-	text-decoration:underline;
+	/*background-color: #D5DFF0;
+	text-decoration:underline;*/
 	color:#A7CC53;
 	/*border-bottom:0.3em solid #FF0000;*/
 	}
