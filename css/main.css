@@ -477,6 +477,11 @@ p.clear {
     color: green;
 }
 
+#content_section_prog mark { 
+    background-color: #D3D3D3;
+    color: black;
+}
+
 .boxed {
-	border: 1px solid #104E8B;
+	border: 1px solid #D3D3D3;
 }
