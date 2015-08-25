@@ -476,3 +476,7 @@ p.clear {
     font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
     color: green;
 }
+
+.boxed {
+	border: 1px solid #104E8B;
+}
