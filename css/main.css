@@ -447,6 +447,40 @@ p.clear {
   font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
+#content_section_curr p {
+  font-size: 1em;
+  font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+  text-align: justify;
+}
+
+#right_sidebar_curr {
+	float: left;
+	width: 50%;
+	padding-bottom: 1em;
+	/*padding-top: 1em;*/
+	padding-left:1em;
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+}
+
+
+#left_sidebar_curr {
+	width: 10%;
+	float:left;
+	/*padding-top: 1em;*/
+  font-size: 0.85em;
+  font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+}
+
+#content_section_curr {
+	width: 70%;
+	float:left;
+  padding-left: 2em;
+	/*padding-top: 1em;*/
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+}
+
 #content_section_prog {
 	width: 70%;
 	float:left;
