@@ -401,8 +401,21 @@ img#logo {
     transform: rotate(90deg);
 }
 
+img#admission {
+	width: 85%; 
+	height: 85%;
+	float: right;
+	margin: 0px; 
+	border-width: 0px; 
+	border-style: solid;
+}
+
+p.clear {
+	clear: both;
+}
+
 #left_sidebar_admin {
-	width: 10%;
+	width: 15%;
 	float:left;
 	/*padding-top: 1em;*/
   font-size: 0.85em;
@@ -418,33 +431,20 @@ img#logo {
   font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
+#content_section_admin p {
+  font-size: 1em;
+  font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+  text-align: justify;
+}
+
 #right_sidebar_admin {
 	float: left;
-	width: 50%;
+	width: 35%;
 	padding-bottom: 1em;
 	/*padding-top: 1em;*/
 	padding-left:1em;
   font-size: 1em;
   font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
-}
-
-img#admission {
-	width: 85%; 
-	height: 85%;
-	float: right;
-	margin: 0px; 
-	border-width: 0px; 
-	border-style: solid;
-}
-
-p.clear {
-	clear: both;
-}
-
-#content_section_admin p {
-  font-size: 1em;
-  font-family: 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
-  text-align: justify;
 }
 
 #content_section_prog {
