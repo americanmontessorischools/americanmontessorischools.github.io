@@ -394,7 +394,7 @@ img#logo {
 
 #footer_text h2 {
   font-size: 4em;
-  font-family: 'MisterEarlCustom', 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+  font-family: 'MisterEarl BT', 'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
 }
 
 .rotate90 {
@@ -527,6 +527,6 @@ p.clear {
 }
 
 @font-face {
-  font-family: "MisterEarlCustom";
-  src: url("Mister-Earl-Bold.ttf") format("truetype");
+  font-family: "Custom";
+  src: url(http://www.princexml.com/fonts/larabie/Mister-Earl-Bold.ttf) format("truetype");
 }
