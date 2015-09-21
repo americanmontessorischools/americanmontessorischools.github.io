@@ -528,5 +528,6 @@ p.clear {
 
 @font-face {
   font-family: "MisterEarlCustom";
+  src: url(mister-earl-bt.eot);
   src: url("mister-earl-bt.ttf") format("truetype");
 }
