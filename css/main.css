@@ -313,6 +313,33 @@ img#logo {
   border: solid 2px 3D59AB;
 }
 
+#left_sidebar_header {
+	width: 40%;
+	float:left;
+	padding-bottom: 1em;
+	/*padding-top: 1em;*/
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+#right_sidebar_header {
+	float: left;
+	width: 40%;
+	/*padding-top: 1em;*/
+	padding-left:1em;
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+}
+
+#center_space_header {
+	float: left;
+	width: 20%;
+	/*padding-top: 1em;*/
+	padding-left:1em;
+  font-size: 1em;
+  font-family:'Helvetica', 'Arial', 'Calibri', 'Sans-Serif';
+}
+
 #left_sidebar {
 	width: 20%;
 	float:left;
