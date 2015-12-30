@@ -297,8 +297,9 @@ img#logo {
 }
 
 #main_section_header {
-  float:left;
-	width: 100%;
+        width:auto;
+        margin: 0 auto;
+        position:relative;
 }
 
 #container {
