@@ -7,10 +7,44 @@ grouping compliant and certified by American Montessori Society"/>
 			<meta name="keywords" content="Hillsborough, Bridgewater, Raritan, Somerset, montessori, school, new jersey, nj, USA, day care, expanded care, summer camp, kindergarten, elementary, toddler, certified, private school" />
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+<link rel="stylesheet" href="{{ "/css/SlideJS.css" | prepend: site.baseurl }}" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 			<!-- IE6-8 support of HTML5 elements --> <!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
+      /*
+        To have multiple slideshows on the same page
+        they just need to have separate IDs
+      */
+  <script>
+      $('#slides2').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false,
+        start: 1,
+		effect: {
+		  fade: {
+			speed: 400
+		  }
+		},
+        play: {
+          auto: true,
+		  active: false,
+		  interval: 6000,
+		  pauseOnHover: true
+        }
+      });
+
+      $('#slides3').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
 
 		</head>
 		<body>
