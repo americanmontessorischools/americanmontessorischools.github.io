@@ -559,3 +559,7 @@ p.clear {
   src: url("mister-earl-bt.ttf") format("truetype");
 }
 
+.fb-like span, .fb-like iframe {
+  min-width: 100px !important;
+  min-height: 20px !important;
+} 
