@@ -586,7 +586,7 @@ p.clear {
     display: inline-block;
 }
 
-.socials i {
+#socials i {
     width: 20px;
     height: 20px;
     color: #FFF;
@@ -605,7 +605,7 @@ p.clear {
     -ms-transition: all ease 0.3s;
 }
 
-.socials i:hover {
+#socials i:hover {
     color: #FFF;
     text-decoration: none;
     transition: all ease 0.3s;
@@ -615,7 +615,7 @@ p.clear {
     -ms-transition: all ease 0.3s;
 }
 
-.socials .fa-facebook:hover {
+#socials .fa-facebook:hover {
     background: #4060A5;
 }
 
