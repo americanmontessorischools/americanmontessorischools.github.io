@@ -583,6 +583,7 @@ p.clear {
 .social ul {
     margin: 0;
     padding: 5px;
+    list-style: none outside none;
 }
 
 .social ul li {
