@@ -574,6 +574,11 @@ p.clear {
   min-height: 20px !important;
 } 
 
+#socials ul {
+    margin: 0;
+    padding: 5px;
+    list-style: none outside none;
+}
 
 .social {
     margin: 0;
