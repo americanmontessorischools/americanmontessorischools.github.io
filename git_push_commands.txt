@@ -8,3 +8,5 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=86400'
 
 Private Key American Montessori Schools
+
+git clone https://github.com/americanmontessorischools/americanmontessorischools.github.io
