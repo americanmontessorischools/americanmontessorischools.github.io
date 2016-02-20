@@ -19,9 +19,9 @@
  -webkit-transform:translateX(50%);	
  transform:translateX(50%);
  /* Apply animation to this element */	
- -moz-animation: bouncing-text 20s linear infinite alternate;
- -webkit-animation: bouncing-text 20s linear infinite alternate;
- animation: bouncing-text 20s linear infinite alternate;
+ -moz-animation: bouncing-text 15s linear infinite alternate;
+ -webkit-animation: bouncing-text 15s linear infinite alternate;
+ animation: bouncing-text 15s linear infinite alternate;
 }
 /* Move it (define the animation) */
 @-moz-keyframes bouncing-text {
