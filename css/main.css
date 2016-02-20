@@ -25,23 +25,23 @@
 }
 /* Move it (define the animation) */
 @-moz-keyframes bouncing-text {
- 0%   { -moz-transform: translateX(10%); }
- 100% { -moz-transform: translateX(-10%); }
+ 0%   { -moz-transform: translateX(25%); }
+ 100% { -moz-transform: translateX(-25%); }
 }
 @-webkit-keyframes bouncing-text {
- 0%   { -webkit-transform: translateX(10%); }
- 100% { -webkit-transform: translateX(-10%); }
+ 0%   { -webkit-transform: translateX(25%); }
+ 100% { -webkit-transform: translateX(-25%); }
 }
 @keyframes bouncing-text {
  0%   { 
- -moz-transform: translateX(10%); /* Browser bug fix */
- -webkit-transform: translateX(10%); /* Browser bug fix */
- transform: translateX(10%); 		
+ -moz-transform: translateX(25%); /* Browser bug fix */
+ -webkit-transform: translateX(25%); /* Browser bug fix */
+ transform: translateX(25%); 		
  }
  100% { 
- -moz-transform: translateX(-10%); /* Browser bug fix */
- -webkit-transform: translateX(-10%); /* Browser bug fix */
- transform: translateX(-10%); 
+ -moz-transform: translateX(-25%); /* Browser bug fix */
+ -webkit-transform: translateX(-25%); /* Browser bug fix */
+ transform: translateX(-25%); 
  }
 }
 
