@@ -2,9 +2,9 @@
  height: 50px;	
  overflow: hidden;
  position: relative;
- background: black;
+ background: #A7CC53;
  color: #ff0000;
- border: 1px black;
+ border: 1px #A7CC53;
 }
 .bounce p {
  position: absolute;
