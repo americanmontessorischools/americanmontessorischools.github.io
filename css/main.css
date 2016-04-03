@@ -625,6 +625,7 @@ p.clear {
 #socials {
     margin: 0;
     padding: 0;
+    background-color: #F8F8FF;
 }
 
 #socials ul {
