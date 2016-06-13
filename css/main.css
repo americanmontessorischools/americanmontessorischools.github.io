@@ -338,8 +338,8 @@ img.shrink {
 }
 
 img#logo {
-  position: absolute;
-  margin-left: 10px;
+  /*position: absolute;*/
+  margin-left: 200px;
 }
 
 #brand_msg {
