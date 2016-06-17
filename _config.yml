@@ -3,7 +3,7 @@ title: American Montessori School
 email: info@americanmontessorischools.com
 description: "The leading Montessori preschool in Hillsborough and Bridgewater, NJ. Take our Tour today. Call 908-977-6640. For children aged 2 1/2 to 6 years."
 keywords: "Hillsborough, Bridgewater, Belle Mead, Montgomery, Raritan, Somerset, montessori, preschools, daycares, kindergarten, private school"
-baseurl: "/americanmontessorischools" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://www.americanmontessorischools.com/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
