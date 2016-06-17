@@ -1254,9 +1254,7 @@ left: -5px;
 #morebar { text-align:center;}
 #morebar ul { font-size:12px;}
 #morebar ul li {display:inline-block;}
-#socialshift {
-  padding-left: 100px;
-}
+
 
 #socialspace {
   padding-left: 20px;
@@ -1788,6 +1786,9 @@ font-weight: 900;
     left: -25%;
   }
 
+.socialshift {
+  padding-left: 100px;
+}
     a#homeButton {
         margin-top: 0px;
     }
@@ -1823,6 +1824,10 @@ font-weight: 900;
   .active > div:last-child {
     display:none;
   }
+ 
+.socialshift {
+  padding-left: 100px;
+}
     a#homeButton {
         margin-top: 0px;
     }
@@ -1858,6 +1863,7 @@ font-weight: 900;
   .active > div:first-child {
     display:block;
   }
+ 
     a#homeButton {
         margin-top: 0px;
     }

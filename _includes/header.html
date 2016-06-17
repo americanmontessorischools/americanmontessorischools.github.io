@@ -30,7 +30,7 @@
               </span>
               <a><strong>7 a.m. - 6:30 p.m.</strong></a>
             </li>
-            <li class="social">
+            <li class="social socialshift">
               <strong>Follow us:</strong>
               <a href="https://www.facebook.com/AmericanMontessoriSchools" target="_blank"> 
                 <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -91,49 +91,48 @@
 
     <div class="navbar-collapse collapse" id="myNavbar">
 
-
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ "/index.html" | prepend: site.baseurl }}">
                         <span class="glyphicon glyphicon-home"></span>
                     </a>
                 </li>
                 <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menu" aria-haspopup="true" aria-expanded="false"><strong>About</strong> <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a <a href="{{ "/about/montessori_education.html" | prepend: site.baseurl }}">Montessori Education</a></li>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menu1" aria-haspopup="true" aria-expanded="false"><strong>About</strong> <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li role="presentation"><a role="menuitem" href="{{ "/about/montessori_education.html" | prepend: site.baseurl }}">Montessori Education</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/about/mission.html" | prepend: site.baseurl }}">Our Inspiration & Mission</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/about/mission.html" | prepend: site.baseurl }}">Our Inspiration & Mission</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/about/board_members.html" | prepend: site.baseurl }}">Meet Our Board</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/about/board_members.html" | prepend: site.baseurl }}">Meet Our Board</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/about/contact_us.html" | prepend: site.baseurl }}">Contact Us</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/about/contact_us.html" | prepend: site.baseurl }}">Contact Us</a></li>
                       </ul>
                 </li>
                 <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menu" aria-haspopup="true" aria-expanded="false"><strong>Academics</strong> <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="{{ "/academics/curriculum_overview.html" | prepend: site.baseurl }}">Curriculum Overview</a></li>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menu2" aria-haspopup="true" aria-expanded="false"><strong>Academics</strong> <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+                        <li role="presentation"><a role="menuitem" href="{{ "/academics/curriculum_overview.html" | prepend: site.baseurl }}">Curriculum Overview</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/academics/programs.html" | prepend: site.baseurl }}">Montessori Programs</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/academics/programs.html" | prepend: site.baseurl }}">Montessori Programs</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/academics/school_hours.html" | prepend: site.baseurl }}">School Hours</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/academics/school_hours.html" | prepend: site.baseurl }}">School Hours</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/academics/school_calendar.html" | prepend: site.baseurl }}">School Calendar</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/academics/school_calendar.html" | prepend: site.baseurl }}">School Calendar</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/academics/summer_program.html" | prepend: site.baseurl }}">Summer Program & Fees</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/academics/summer_program.html" | prepend: site.baseurl }}">Summer Program & Fees</a></li>
                       </ul>
                 </li>
                 <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menu" aria-haspopup="true" aria-expanded="false"><strong>Admissions</strong> <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menu3" aria-haspopup="true" aria-expanded="false"><strong>Admissions</strong> <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="menu3">
                       <!--
                         <li><a href="#">Admissions Overview</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="{{ "/academics/index.html" | prepend: site.baseurl }}">Enrollment Process</a></li> 
                         <li role="separator" class="divider"></li> -->
-                        <li><a href="{{ "/admissions/tuition.html" | prepend: site.baseurl }}">Tuition Fees & Schedule</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/admissions/tuition.html" | prepend: site.baseurl }}">Tuition Fees & Schedule</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="{{ "/admissions/schedule_visit.html" | prepend: site.baseurl }}">Schedule A Visit</a></li>
+                        <li role="presentation"><a role="menuitem" href="{{ "/admissions/schedule_visit.html" | prepend: site.baseurl }}">Schedule A Visit</a></li>
 
                       </ul>
                 </li>
