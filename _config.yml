@@ -1,0 +1,11 @@
+# Site settings
+title: American Montessori School
+email: info@americanmontessorischools.com
+description: "A private montessori school located in Hillsborough,  New Jersey NJ 08844 USA certified by American Montessori Society, educating infant toddler through sixth grade, 2 to 6 years olds. We are Science, Technology, Engineering, and Mathematics (STEM, previously SETM)grouping compliant"
+baseurl: "/americanmontessorischools.github.io" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4001" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
