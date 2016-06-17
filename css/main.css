@@ -38,63 +38,6 @@
   height:auto;
 }
 
-/* laptops */
-@media (min-width: 992px ) {
-  .carousel-inner .active.left {
-    left: -25%;
-  }
-  .carousel-inner .next {
-    left:  25%;
-  }
-  .carousel-inner .prev {
-    left: -25%;
-  }
-}
-
-/* tablets */
-@media (min-width: 768px) and (max-width: 991px ) {
-  .carousel-inner .active.left {
-    left: -33.3%;
-  }
-  .carousel-inner .next {
-    left:  33.3%;
-  }
-  .carousel-inner .prev {
-    left: -33.3%;
-  }
-  .active > div:first-child {
-    display:block;
-  }
-  .active > div:first-child + div {
-    display:block;
-  }
-  .active > div:last-child {
-    display:none;
-  }
-}
-
-/* Mobile */
-@media (max-width: 767px) {
-  .carousel-inner .active.left {
-    left: -100%;
-  }
-  .carousel-inner .next {
-    left:  100%;
-  }
-  .carousel-inner .prev {
-    left: -100%;
-  }
-  .carousel-inner{
-    margin-top: 120px;
-  }
-  .active > div {
-    display:none;
-  }
-  .active > div:first-child {
-    display:block;
-  }
-}
-
 .section-items.schedule-visit {
     display: block;
 }
@@ -217,16 +160,7 @@
     padding-bottom: 20px;
 }
 
- @media (max-width: 550px) {
-     .big-container {
-         display: none;
-     }
- }
- @media (min-width: 550px) {
-     .small-container {
-         display: none;
-     }
- }
+
 
 /* Responsive iFrame */
 
@@ -1404,52 +1338,8 @@ left: -5px;
  }
 */
 
-@media screen and (min-width: 411px) {
-
-    .col-lg-10 {width: 80%;}
-    .col-sm-8 {width: 66.6667%;}
 
 
-    a#homeButton {
-        margin-top: 0px;
-    }
-
-    a#homeButton span {
-        font-family: "tertre_medbold";
-        background-image: url(../images/AMSLogoTranparentColorWhiteTextRightWithBrand.png);
-        background-position: left center;
-        background-repeat: no-repeat;
-        padding: 0px 300px 60px 60px;
-        color: #FFFFFF;
-        /*width: 400px;*/
-    }
-
- 
-}
-
-@media screen and (max-width: 410px) {
-
-    a#homeButton {
-        margin-top: 0px;
-    }
-
-    a#homeButton span {
-        font-family: "tertre_medbold";
-        background-image: url(../images/AMSLogoSmallTranparentColorWhiteTextRightWithBrand.png);
-        background-position: left center;
-        background-repeat: no-repeat;
-        padding: 0px 150px 40px 60px;
-        color: #FFFFFF;
-        /*width: 50%;*/
-    }
-
-/*
-a#homeButton:after {
-   content: "American Montessori School";
-}*/
-
- 
-}
 
 /*
 .nav-pills.nav-wizard > li {
@@ -1885,3 +1775,111 @@ font-weight: 900;
 }
 */
 
+
+/* laptops */
+@media (min-width: 992px ) {
+  .carousel-inner .active.left {
+    left: -25%;
+  }
+  .carousel-inner .next {
+    left:  25%;
+  }
+  .carousel-inner .prev {
+    left: -25%;
+  }
+
+    a#homeButton {
+        margin-top: 0px;
+    }
+
+    a#homeButton span {
+        font-family: "tertre_medbold";
+        background-image: url(../images/AMSLogoTranparentColorWhiteTextRightWithBrand.png);
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding: 0px 300px 60px 60px;
+        color: #FFFFFF;
+        /*width: 400px;*/
+    }
+}
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 991px ) {
+  .carousel-inner .active.left {
+    left: -33.3%;
+  }
+  .carousel-inner .next {
+    left:  33.3%;
+  }
+  .carousel-inner .prev {
+    left: -33.3%;
+  }
+  .active > div:first-child {
+    display:block;
+  }
+  .active > div:first-child + div {
+    display:block;
+  }
+  .active > div:last-child {
+    display:none;
+  }
+    a#homeButton {
+        margin-top: 0px;
+    }
+
+    a#homeButton span {
+        font-family: "tertre_medbold";
+        background-image: url(../images/AMSLogoTranparentColorWhiteTextRightWithBrand.png);
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding: 0px 300px 60px 60px;
+        color: #FFFFFF;
+        /*width: 400px;*/
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .carousel-inner .active.left {
+    left: -100%;
+  }
+  .carousel-inner .next {
+    left:  100%;
+  }
+  .carousel-inner .prev {
+    left: -100%;
+  }
+  .carousel-inner{
+    margin-top: 120px;
+  }
+  .active > div {
+    display:none;
+  }
+  .active > div:first-child {
+    display:block;
+  }
+    a#homeButton {
+        margin-top: 0px;
+    }
+
+    a#homeButton span {
+        font-family: "tertre_medbold";
+        background-image: url(../images/AMSLogoSmallTranparentColorWhiteTextRightWithBrand.png);
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding: 0px 150px 40px 60px;
+        color: #FFFFFF;
+        /*width: 50%;*/
+    }
+}
+
+ @media (max-width: 550px) {
+     .big-container {
+         display: none;
+     }
+ }
+ @media (min-width: 550px) {
+     .small-container {
+         display: none;
+     }
+ }
