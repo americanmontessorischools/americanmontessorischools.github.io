@@ -1,7 +1,7 @@
 ---
 ---
 
-.header { position: relative; z-index: 120; width: 100%; padding: 18px 0 18px; background: #ccffcc; color: white; }
+.header { position: relative; z-index: 120; width: 100%; padding: 18px 0 18px; background: #ffffff; color: white; }
 
 .carousel {margin-top: 69px;}
 
@@ -1191,15 +1191,13 @@ left: -5px;
   color: #FF7F3B;
 }
 
-/*
 .navbar-default .navbar-nav > li > a {
-  color: black;
+  color: #000000;
 }
-*/
 
 #topbar {
         /*background: #ffbb00;*/
-        background-color: #659d32;
+        background-color: #81BD10 !important;
         background-image: none;
         background-repeat: repeat;
         background-attachment: scroll;
@@ -1219,7 +1217,7 @@ left: -5px;
 #topbar ul { font-size:12px;margin-top: 0px;margin-bottom: 0px;}
 #topbar ul li {display:inline-block;}
 
-#topbar ul li a strong {color:#ffffff;}
+#topbar ul li a strong {color:#000000;}
 
 #underline {text-decoration: underline;}
 
