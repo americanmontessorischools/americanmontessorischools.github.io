@@ -1882,10 +1882,10 @@ a#homeButton {
 
     a#homeButton span {
         font-family: "tertre_medbold";
-        background-image: url(../images/AMSLogoSmallTranparentColorWhiteTextRightWithBrand.png);
+        background-image: url(../images/AMSLogoSmallTranparentColorWhiteTextRightWithBrand210x60.png);
         background-position: left center;
         background-repeat: no-repeat;
-        padding: 0px 150px 40px 60px;
+        padding: 0px 150px 45px 65px;
         color: transparent;
         /*width: 50%;*/
     }
