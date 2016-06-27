@@ -1,7 +1,7 @@
 ---
 ---
 
-.header { position: relative; z-index: 120; width: 100%; padding: 18px 0 18px; background: #a0eb14 !important; color: white; }
+.header { position: relative; z-index: 120; width: 100%; padding: 18px 0 18px; background: #81bd10 !important; color: white; }
 
 .carousel {margin-top: 69px;}
 
@@ -1197,7 +1197,7 @@ left: -5px;
 
 #topbar {
         /*background: #ffbb00;*/
-        background-color: #bcf15b !important;
+        background-color: #A7FF00 !important;
         background-image: none;
         background-repeat: repeat;
         background-attachment: scroll;
@@ -1807,7 +1807,7 @@ a#homeButton {
 
     a#homeButton span {
         font-family: "tertre_medbold";
-        background-image: url(../images/AMSLogoTranparentColorTextRightWithBrand.png);
+        background-image: url(../images/AMSLogoTranparentColorWhiteTextRightWithBrand.png);
         background-position: left center;
         background-repeat: no-repeat;
         padding: 0px 300px 60px 60px;
@@ -1846,7 +1846,7 @@ a#homeButton {
 
     a#homeButton span {
         font-family: "tertre_medbold";
-        background-image: url(../images/AMSLogoTranparentColorTextRightWithBrand.png);
+        background-image: url(../images/AMSLogoTranparentColorWhiteTextRightWithBrand.png);
         background-position: left center;
         background-repeat: no-repeat;
         padding: 0px 300px 60px 60px;
@@ -1882,7 +1882,7 @@ a#homeButton {
 
     a#homeButton span {
         font-family: "tertre_medbold";
-        background-image: url(../images/AMSLogoSmallTranparentColorTextRightWithBrand.png);
+        background-image: url(../images/AMSLogoSmallTranparentColorWhiteTextRightWithBrand.png);
         background-position: left center;
         background-repeat: no-repeat;
         padding: 0px 150px 40px 60px;
