@@ -1,7 +1,7 @@
 ---
 ---
 
-.header { position: relative; z-index: 120; width: 100%; padding: 18px 0 18px; background: #ffffff; color: white; }
+.header { position: relative; z-index: 120; width: 100%; padding: 18px 0 18px; background: #a0eb14 !important; color: white; }
 
 .carousel {margin-top: 69px;}
 
@@ -1197,7 +1197,7 @@ left: -5px;
 
 #topbar {
         /*background: #ffbb00;*/
-        background-color: #81BD10 !important;
+        background-color: #bcf15b !important;
         background-image: none;
         background-repeat: repeat;
         background-attachment: scroll;
