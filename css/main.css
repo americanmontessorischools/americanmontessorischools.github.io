@@ -1025,7 +1025,7 @@ left: -5px;
   vertical-align: -0.4em;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover  {
     display: block;
 }
 
