@@ -20,7 +20,7 @@ compress_html:
   comments: all
   endings: []
   ignore:
-    envs: [production]
+    envs: ["production"]
   blanklines: false
   profile: false
   startings: []
