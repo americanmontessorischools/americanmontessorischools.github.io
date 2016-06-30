@@ -14,13 +14,12 @@ google_analytics: UA-65933630-1
 # Build settings
 markdown: kramdown
 
-# Compress html
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: ["local"]
+    envs: [development]
   blanklines: false
   profile: true
   startings: [html, head, body]
