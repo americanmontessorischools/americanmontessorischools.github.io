@@ -1193,7 +1193,7 @@ left: -5px;
   color: #000000;
 }
 
-#topbar {
+.topbar {
         /*background: #ffbb00;*/
         background-color: #A7FF00 !important;
         background-image: none;
@@ -1211,13 +1211,13 @@ left: -5px;
         padding-left: 0px; */
 }
 
-#topbar { text-align:center;}
-#topbar ul { font-size:13px;margin-top: 0px;margin-bottom: 0px;}
-#topbar ul li {display:inline-block;}
+.topbar { text-align:center;}
+.topbar ul { font-size:13px;margin-top: 0px;margin-bottom: 0px;}
+.topbar ul li {display:inline-block;}
 
-#topbar ul li a strong {color:#000000;}
+.topbar ul li a strong {color:#000000;}
 
-#underline {text-decoration: underline;}
+.topbar underline {text-decoration: underline;}
 
 #morebar_clear {
     background: rgb(255, 255, 255);
