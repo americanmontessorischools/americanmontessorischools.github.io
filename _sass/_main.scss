@@ -1830,9 +1830,12 @@ color:#fe2015;
 font-weight: 900;
 font-size: 20px;
 }
+.socialshift {
+  padding-left: 10px;
+}
 
 .socialspace {
-  padding-left: 2px;
+  padding-left: 3px;
 }
   .carousel-inner .active.left {
     left: -33.3%;
@@ -1894,8 +1897,11 @@ font-size: 20px;
   .active > div:first-child {
     display:block;
   }
- .socialspace {
+.socialshift {
   padding-left: 5px;
+}
+.socialspace {
+  padding-left: 6px;
 }
     a#homeButton {
         margin-top: 0px;
