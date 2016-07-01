@@ -1217,6 +1217,8 @@ left: -5px;
 
 .topbar ul li a strong {color:#000000;}
 
+.topbar ul li strong {color:#000000;}
+
 .topbar underline {text-decoration: underline;}
 
 #morebar_clear {
@@ -1264,7 +1266,7 @@ left: -5px;
 #morebar ul li {display:inline-block;}
 
 
-#socialspace {
+.socialspace {
   padding-left: 30px;
 }
 
@@ -1426,6 +1428,7 @@ left: -5px;
 {
 color:#fe2015;
 font-weight: 900;
+font-size: 15px;
 }
 
   .container-fluid-nopad {
@@ -1817,6 +1820,12 @@ a#homeButton {
 
 /* tablets */
 @media (min-width: 768px) and (max-width: 991px ) {
+ .phone
+{
+color:#fe2015;
+font-weight: 900;
+font-size: 20px;
+}
   .carousel-inner .active.left {
     left: -33.3%;
   }
@@ -1856,6 +1865,12 @@ a#homeButton {
 
 /* Mobile */
 @media (max-width: 767px) {
+.phone
+{
+color:#fe2015;
+font-weight: 900;
+font-size: 20px;
+}
   .carousel-inner .active.left {
     left: -100%;
   }
