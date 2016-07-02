@@ -23,8 +23,16 @@ layout: compress
  
     {% include footer.html %}
 
+<script>
+$(document).ready(function () {
+        $(".navbar-toggle").on("click", function () {
+            $(this).toggleClass("active");
+        });
+    });
+</script>
 
-    <script type='text/javascript' src="{{ "/js/script-nav-toggle.js" | prepend: site.baseurl }}"></script>
+<!--
+    <script async type='text/javascript' src="{{ "/js/script-nav-toggle.js" | prepend: site.baseurl }}"></script> -->
     <script async type='text/javascript' src="{{ "/js/script-carousel-slides.js" | prepend: site.baseurl }}"></script>
 
   </body>
