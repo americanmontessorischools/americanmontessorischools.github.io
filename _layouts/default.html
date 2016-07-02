@@ -15,21 +15,21 @@ layout: compress
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+
+$(document).ready(function () {
+        $(".navbar-toggle").on("click", function () {
+            $(this).toggleClass("active");
+        });
+    });
+
+</script>
 
     {% include header.html %}
 
     {{ content }}
  
     {% include footer.html %}
-
-<script>
-$(document).ready(function () {
-        $(".navbar-toggle").on("click", function () {
-            $(this).toggleClass("active");
-        });
-    });
-</script>
 
 <!--
     <script async type='text/javascript' src="{{ "/js/script-nav-toggle.js" | prepend: site.baseurl }}"></script> -->
