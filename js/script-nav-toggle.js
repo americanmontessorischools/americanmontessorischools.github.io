@@ -8,6 +8,13 @@ $(document).ready(function () {
             function(){ $(this).removeClass('open') }
         );
 
+    $('.img-zoom').hover(function() {
+        $(this).addClass('transition');
+ 
+    }, function() {
+        $(this).removeClass('transition');
+    });
+    
 		});
 
 
