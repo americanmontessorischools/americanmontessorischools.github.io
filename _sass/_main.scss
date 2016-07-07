@@ -49,7 +49,7 @@
 
 .col-td-color {
     text-align: left;
-    color: blue;
+    color: #242729;
 }
 
 .col-td-pad {
@@ -67,12 +67,12 @@
 }
 
 .section-items.tuition th {
-    background-color: #4484ce;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
 .section-items.tuition th strong {
-    color: #ffffff;
+    color: #242729;
     text-align: center;
 }
 
@@ -105,7 +105,7 @@
 
 .section-items.summer-camp {
   display: block;
-  margin-bottom: -60px;
+  margin-bottom: -120px;
 }
 
 .section-items.summer-camp h1 {
@@ -153,8 +153,7 @@
 }
 
 .section-items.summer-camp .rightSide {
-    float: center;
-    pad-right: 20px;
+    float: right;
 }
 
 .section-items.summer-camp .modules p {
@@ -1150,11 +1149,11 @@ left: -5px;
 
 
 .section-items.board-members th {
-    background-color: #4484ce;
+    background-color: #f5f5f5
 }
 
 .section-items.board-members th strong {
-    color: #ffffff;
+    color: #242729;
 }
 
 .section-items.board-members h1 {
@@ -1920,7 +1919,9 @@ font-weight: 900;
 font-size: 20px;
 }
 
-
+.section-items.summer-camp .rightSide {float: left;margin-left: 40px;}
+.section-items.montessori-approach .rightSide {float: left;margin-left: 20px;}
+.section-items.montessori-program .rightSide {float: left;margin-left: 40px;}
 .section-team-box2 {margin-left:-30%;}
 .col-left-margin {
     margin-left:1.33333%;
