@@ -214,7 +214,7 @@ height: 100%;
 .section-items.curriculum ul li:before {
   font-family: 'FontAwesome';
   content: "\f046";
-  color: #8ed110;
+  color: #242729;
   font-size: 30px;
   position: absolute;
   z-index: 999;
@@ -369,7 +369,7 @@ height: 100%;
 }
 .section-items.mission-intro .RightCampaign ul li:before {
   content: "\f046";
-  color: #8ed110;
+  color: #242729;
 }
 .section-items.mission-intro .WrongCampaign ul li:before {
   content: "\f00d";
@@ -1919,7 +1919,7 @@ font-weight: 900;
 font-size: 20px;
 }
 
-
+.topbar {margin-left:-30%;}
 .section-team-box2 {margin-left:-30%;}
 .col-left-margin {
     margin-left:1.33333%;
