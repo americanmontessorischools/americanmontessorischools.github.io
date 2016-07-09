@@ -1999,8 +1999,43 @@ font-size: 20px;
      }
  }
  @media (min-width: 550px) {
+
+
+    a#homeButton {
+        margin-top: 0px;
+    }
+
+    a#homeButton span {
+        font-family: "tertre_medbold";
+        background-image: url(../images/AMSLogoTranparentColorBlackTextRightWithBrand.png);
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding: 0px 300px 60px 60px;
+        color: transparent;
+        /*width: 400px;*/
+    }
      .small-container {
          display: none;
      }
  }
 
+@media (min-width: 414px) {
+
+
+    a#homeButton {
+        margin-top: 0px;
+    }
+
+    a#homeButton span {
+        font-family: "tertre_medbold";
+        background-image: url(../images/AMSLogoTranparentColorBlackTextRightWithBrand.png);
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding: 0px 300px 60px 60px;
+        color: transparent;
+        /*width: 400px;*/
+    }
+     .small-container {
+         display: none;
+     }
+ }
