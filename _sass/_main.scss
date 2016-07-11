@@ -23,13 +23,15 @@
 
 .carousel-indicators li {
   border-color:#242729;
-  background-color:#242729;
 }
 
 .carousel-inner {
    margin-bottom:50px;
 }
 
+.carousel-indicators .active {
+    background-color: #242729;
+}
 
 .img-responsive{
   width:100%;
