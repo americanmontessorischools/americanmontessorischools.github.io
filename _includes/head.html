@@ -7,10 +7,15 @@
   {% endif %}
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}
+  <meta name="referrer" content="always">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">{% endif %}
   <meta name="keywords" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.keywords }}{% endif %}">
 
-
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The leading american Montessori School in Hillsborough, Flagtown, and Bridgewater NJ. For children aged 2 1/2 to 6 years." />
+<meta property="og:description" content="The leading american Montessori School in Hillsborough, Flagtown, and Bridgewater NJ. Take our Tour today. (908) 977-6640. For children aged 2 1/2 to 6 years." />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:site_name" content="American Montessori School in Hillsborough, Flagtown, and Bridgewater NJ" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/images/icons/favicon-32x32.png" sizes="32x32">
@@ -36,7 +41,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}" type="text/css" media="screen" />
-
+<link rel="publisher" href="https://www.facebook.com/AmericanMontessoriSchools"/>
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 {% if jekyll.environment == 'production' %}
