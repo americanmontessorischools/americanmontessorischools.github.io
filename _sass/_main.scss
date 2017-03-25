@@ -2067,9 +2067,14 @@ font-size: 20px;
      }
  }
 
+@media (max-width: 414px) {
+
+.top_msg {margin-top: 200px;}
+}
+
 @media (min-width: 414px) {
 
-.top_msg {margin-top: 180px;}
+.top_msg {margin-top: 185px;}
 
     a#homeButton {
         margin-top: 0px;
