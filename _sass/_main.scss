@@ -1991,6 +1991,7 @@ color:#ffffff;
 font-weight: 900;
 font-size: 20px;
 }
+.top_msg {margin-top: 150px;}
 
 .section-items.summer-camp .rightSide {float: left;margin-left: 40px;}
 .section-items.montessori-approach .rightSide {float: left;margin-left: 20px;}
@@ -2040,6 +2041,7 @@ font-size: 20px;
 }
 
  @media (max-width: 550px) {
+
      .big-container {
          display: none;
      }
@@ -2067,6 +2069,7 @@ font-size: 20px;
 
 @media (min-width: 414px) {
 
+.top_msg {margin-top: 180px;}
 
     a#homeButton {
         margin-top: 0px;
