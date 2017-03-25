@@ -1,9 +1,31 @@
 
 .header { position: relative; z-index: 120; width: 100%; padding: 18px 0 18px; background: #ffffff !important; color: #ffffff; }
 
-.carousel {margin-top: 69px;}
+.top_msg {margin-top: 150px;}
+.top_panel_hdr_box {background-color: #ffffff;border: none;box-shadow: 5px 0px 40px rgba(0,0,0, .2);}
 
+.alert .glyphicon{
+    display:table-cell;
+}
+
+.alert div,
+.alert span{
+    padding-left: 5px;
+    display:table-cell;
+}
+
+.glyphicon.glyphicon-exclamation-sign {
+    font-size: 50px;
+}
+
+/*
+.carousel {margin-top: 69px;}
 .carousel-inner {margin-top: 80px;}
+*/
+
+.carousel {margin-top: 1px;}
+
+.carousel-inner {margin-top: 1px;}
 
 .carousel-control.left, .carousel-control.right {
   background-image:none;
@@ -1598,7 +1620,7 @@ font-size: 15px;
   }
   .panel-heading {
       color: #242729 !important;
-      background-color: #f5f5f5 !important;
+      background-color: #f5f5f5;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
