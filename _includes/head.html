@@ -10,6 +10,7 @@
   <meta name="referrer" content="always">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">{% endif %}
   <meta name="keywords" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.keywords }}{% endif %}">
+  <meta name="author" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.author }}{% endif %}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/images/icons/favicon-32x32.png" sizes="32x32">

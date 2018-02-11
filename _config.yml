@@ -1,8 +1,9 @@
 # Site settings
-title: A wonderful Montessori preschool - American Montessori School
+title: American Montessori School - Hillsborough NJ's top preschool
 email: info@americanmontessorischools.com
-description: "A Montessori preschool that instills a lifelong joy of learning, serving Hillsborough, Bridgewater, Somerset NJ communities"
-keywords: "Preschool, Hillsborough, Bridgewater, Belle Mead, Montgomery, Raritan, Somerset, montessori, daycares, kindergarten, private school"
+description: "Our aim is not only to make the child understand, ... but so to touch his imagination as to enthuse him to his innermost core"
+keywords: "Preschool, childcaare, daycare, kindergarten, private school"
+author: "American Montessori School"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.americanmontessorischools.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
@@ -26,3 +27,5 @@ compress_html:
 
 sass:
   style: compressed
+
+
