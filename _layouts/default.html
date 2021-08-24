@@ -26,5 +26,10 @@ layout: compress
     <script async type='text/javascript' src="{{ "/js/script-carousel-slides.js" | prepend: site.baseurl }}"></script>
     <script  type='text/javascript' src="{{ "/js/script-nav-toggle.js" | prepend: site.baseurl }}"></script>
 
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script async
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsAVskchZP-bGLCSIG6mKBHtzUUc7l2LY&callback=initMap">
+    </script>
+    
   </body>
 </html>
