@@ -1,8 +1,8 @@
 # Site settings
 title: American Montessori School - in Hillsborough NJ
 email: info@americanmontessorischools.com
-description: "We are Hillsborough NJ's top preschool. Our aim is not only to make the child understand, ... but so to touch their imagination as to enthuse them to his or her innermost core"
-keywords: "Preschool, childcaare, daycare, kindergarten, private school"
+description: "We are Hillsborough NJ's top preschool and daycare. Our aim is not only to make the child understand, ... but so to touch their imagination as to enthuse them to his or her innermost core"
+keywords: "Preschool, childcare, daycare, kindergarten, private school"
 author: "American Montessori School"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.americanmontessorischools.com" # the base hostname & protocol for your site
